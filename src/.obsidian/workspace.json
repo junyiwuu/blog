@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "2d1a46a47b2c9331",
+    "id": "6d7af374f3ecfcf5",
     "type": "split",
     "children": [
       {
-        "id": "657185c3967441a8",
+        "id": "15e9f5186969cc09",
         "type": "tabs",
         "children": [
           {
-            "id": "bdfd6ed182ba8d7b",
+            "id": "bc19e91f3f5c7ec7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/vulkan/main.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "main"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5e92d35cb0c0fda7",
+    "id": "dcee8a041c4df648",
     "type": "split",
     "children": [
       {
-        "id": "7ec58f401336b996",
+        "id": "b966b92ffa13d716",
         "type": "tabs",
         "children": [
           {
-            "id": "75ec06092d3f857e",
+            "id": "19b6203948a06fb0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "4b29ee3d31d805a8",
+            "id": "e0a0931ef45ea4d2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "6a17740fb7fabb54",
+            "id": "3f3aeae393174e38",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "ab0514f46b62d834",
+    "id": "4dd12db296070f1a",
     "type": "split",
     "children": [
       {
-        "id": "990904be7664becc",
+        "id": "30a48d4fce200855",
         "type": "tabs",
         "children": [
           {
-            "id": "68d7c89132c8abaf",
+            "id": "f45dfcf15288ef60",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vulkan/VKcolletcions/test.md",
+                "file": "content/docs/vulkan/main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for test"
+              "title": "Backlinks for main"
             }
           },
           {
-            "id": "62de47e5548edae8",
+            "id": "6936b91112b4c9ba",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vulkan/VKcolletcions/test.md",
+                "file": "content/docs/vulkan/main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from test"
+              "title": "Outgoing links from main"
             }
           },
           {
-            "id": "565f5966c0f5644e",
+            "id": "1d11b54e250b3766",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,18 +137,18 @@
             }
           },
           {
-            "id": "f4282e1ce4013bb9",
+            "id": "3c7f3a121e82fcbb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "vulkan/VKcolletcions/test.md",
+                "file": "content/docs/vulkan/main.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of test"
+              "title": "Outline of main"
             }
           }
         ]
@@ -164,16 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bdfd6ed182ba8d7b",
+  "active": "bc19e91f3f5c7ec7",
   "lastOpenFiles": [
-    "vulkan/main.md",
-    "vulkan/main 1.md",
-    "vulkan/VKcolletcions/instance.md",
-    "vulkan/GLSL/GLSL.md",
-    "main.md",
-    "Untitled",
-    "vulkan/GLSL",
-    "index.md",
-    "top_page_placeholder.md"
+    "content/docs/top_page_placeholder.md",
+    "content/docs/vulkan/main.md",
+    "content/docs/index.md"
   ]
 }
