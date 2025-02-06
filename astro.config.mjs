@@ -5,12 +5,17 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
+
 		starlight({
-			title: 'My Docs',
+			title: ' (ง ˙o˙)ว',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/junyiwuu',
 			},
+
 			sidebar: [
+
+				{ slug: 'top_page_placeholder'},
+
 				{
 					label: 'Guides',
 					items: [
@@ -18,11 +23,22 @@ export default defineConfig({
 						{ label: 'Example Guide', slug: 'guides/example' },
 					],
 				},
+
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
+
+				{
+					label: 'Vulkan',
+
+					autogenerate: {directory: "vulkan"},
+				},
+
+
+
 			],
+
 		}),
 	],
 });
