@@ -21,3 +21,21 @@ layout (location = 0) out vec3 fragColor;
   
 
 ```
+
+---
+gl_VertextIndex: contains the index of the current vertext for each time our main function run
+
+**`layout(location=0) out vec4 outColor;
+
+> **layout(location=0):**
+layout qualifier. Specifies the location index of this output variable. currently return 0, meaning this variable will be linked to the first framebuffer
+
+> **out**:
+this variable is an output of the fragment shader. fragment shader produce color values for each pixel, this is where the color will be stored
+
+>**outColor:**
+the name of output variable
+
+OVERALL:
+
+a output variable , name is "outColor"-- fragment shader, location is 0, vec4

@@ -1,21 +1,14 @@
 ---
 title: Instance
 ---
-## instance is a connection between your application and vulkan library
+## Instance is a connection between your application and Vulkan library
 
 (always first build the connection)
 
 
-### applicationInfo : a resume for the application
-
+### applicationInfo : a resume for the application 
   
-  
-  
-
 ```cpp
-
-  
-
 void LveDevice::createInstance() {
 
 // 1. set up application info
