@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/guides/docGuide.md",
+                "file": "content/docs/virtual environment/conda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docGuide"
+              "title": "conda"
             }
           }
         ],
@@ -185,6 +185,8 @@
   },
   "active": "ff4d3b91ca8f1a1b",
   "lastOpenFiles": [
+    "content/docs/guides/docGuide.md",
+    "content/docs/guides/docguide.md",
     "content/docs/virtual environment/conda.md",
     "content/docs/top_page_placeholder.md",
     "content/docs/index.md",
@@ -198,7 +200,6 @@
     "content/docs/linux",
     "content/docs/vulkan/main.md",
     "content/docs/vulkan/file.md",
-    "content/docs/guides/docGuide.md",
     "content/docs/virtual environment",
     "content/docs/Cpp/compileCpp.md",
     "content/docs/Cpp",
