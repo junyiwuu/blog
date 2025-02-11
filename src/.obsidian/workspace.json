@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/top_page_placeholder.md",
+                "file": "content/docs/virtual environment/conda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "top_page_placeholder"
+              "title": "conda"
             }
           }
         ],
@@ -185,6 +185,7 @@
   },
   "active": "ff4d3b91ca8f1a1b",
   "lastOpenFiles": [
+    "content/docs/top_page_placeholder.md",
     "content/docs/index.md",
     "content/docs/linux/commonInstall.md",
     "content/docs/linux/commonCommands.md",
@@ -205,7 +206,6 @@
     "content/docs/vulkan/VKcolletcions/others.md",
     "content/docs/vulkan/createWindow.md",
     "content/docs/vulkan/VKcolletcions/shaderModule.md",
-    "content/docs/guides/dataAnalytic.md",
-    "content/docs/top_page_placeholder.md"
+    "content/docs/guides/dataAnalytic.md"
   ]
 }
