@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/virtual environment/conda.md",
+                "file": "content/docs/guides/docGuide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conda"
+              "title": "docGuide"
             }
           }
         ],
@@ -185,6 +185,7 @@
   },
   "active": "ff4d3b91ca8f1a1b",
   "lastOpenFiles": [
+    "content/docs/virtual environment/conda.md",
     "content/docs/top_page_placeholder.md",
     "content/docs/index.md",
     "content/docs/linux/commonInstall.md",
@@ -194,7 +195,6 @@
     "content/docs/vulkan/VKcolletcions/instance.md",
     "content/docs/vulkan/GLSL/GLSL.md",
     "content/docs/vulkan/GLSL/compileGLSLtoSPIRV.md",
-    "content/docs/virtual environment/conda.md",
     "content/docs/linux",
     "content/docs/vulkan/main.md",
     "content/docs/vulkan/file.md",
