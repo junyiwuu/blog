@@ -44,3 +44,30 @@ conda commands available from other packages:
 * `conda-forge` is a community-maintained Conda channel that provides up-to-date and well-maintained packages.
 * `conda info`: if Conda is correctly installed, this will display information about your installation
 * `conda env list`: check available Conda environments
+
+
+
+
+## Remove the environment
+
+`conda remove --name myenv --all`
+
+
+
+## List all existed env
+
+
+`conda env list`
+
+
+log: 
+`conda install -y -c pytorch pytorch=2.0.0 torchaudio=2.0.0 torchvision=0.15.0`
+this is done, with one error: Solving environment: failed with initial frozen solve. Retrying with flexible solve.
+
+
+solving environment forever: happen on conda-forge
+
+
+
+
+### need to find where is conda installed, and where is base environment

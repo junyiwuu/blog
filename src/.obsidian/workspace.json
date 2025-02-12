@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/virtual environment/conda.md",
+                "file": "content/docs/top_page_placeholder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conda"
+              "title": "top_page_placeholder"
             }
           }
         ],
@@ -185,13 +185,13 @@
   },
   "active": "ff4d3b91ca8f1a1b",
   "lastOpenFiles": [
+    "content/docs/index.md",
+    "content/docs/virtual environment/conda.md",
+    "content/docs/linux/commonCommands.md",
     "content/docs/guides/docGuide.md",
     "content/docs/guides/docguide.md",
-    "content/docs/virtual environment/conda.md",
     "content/docs/top_page_placeholder.md",
-    "content/docs/index.md",
     "content/docs/linux/commonInstall.md",
-    "content/docs/linux/commonCommands.md",
     "content/docs/linux/issues.md",
     "content/docs/vulkan/VKcolletcions/pipeline.md",
     "content/docs/vulkan/VKcolletcions/instance.md",

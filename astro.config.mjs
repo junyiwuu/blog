@@ -24,7 +24,18 @@ export default defineConfig({
 						{ label: 'Example Guide', slug: 'guides/docguide' },
 					],
 				},
-
+				{
+					label: 'Cpp',
+					autogenerate: { directory: 'Cpp' },
+				},
+				{
+					label: 'Linux',
+					autogenerate: { directory: 'linux' },
+				},
+				{
+					label: 'Virtual Environment',
+					autogenerate: { directory: 'virtual environment' },
+				},
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
