@@ -91,13 +91,6 @@ add the lvePipeline in FirstApp private, so when initialize the object, it also 
 
 [chapter 3 code](https://github.com/junyiwuu/vulkanEngine/tree/d52a0cd4cf65d366e987f077259bbd2d5749374b)
 
-  
-  
-  
-
-
-
-
 ## Chapter 4:
 
 [chapter 4 code](https://github.com/junyiwuu/vulkanEngine/tree/d282352785ff4ba909beed1d68cbaf0d96b6d935)
@@ -191,3 +184,37 @@ Command Buffer lifecycle from the [tutorial](https://www.youtube.com/watch?v=_VO
   
 
 LOGIC:
+
+
+
+
+
+
+# 2.13
+
+how to build a homogeneous coordinates:
+affine transform matrix
+```cpp
+struct TransformComponent{
+	glm::vec3 translation{};
+	glm::vec3 scale{1.f, 1.f, 1.f};
+	glm::vec3 rotation;
+	
+	glm::mat4 mat4_transform() {
+		auto transform = glm::translate(glm::mat4{1.f}, translation); 
+		//use yxz rotation
+		transform = glm::rotate(transform, rotation.y, {0.f, 1.f, 0.f});
+		transform = glm::rotate(transform, rotation.x, {1.f, 0.f, 0.f});
+		transform = glm::rotate(transform, rotation.z, {0.f, 0.f, 0.f});
+		transform = glm::scale(transform, scale);
+		return transform;
+		}
+
+};
+```
+
+
+When changing from 2D to 3D , also need to update the **VkVertexInputAttributeDescription**,   `attributeDescriptions[0].format = VK_FORMAT_R32G32B32_SFLOAT;`
+
+from `VK_FORMAT_R32G32_SFLOAT` to `VK_FORMAT_R32G32B32_SFLOAT`
+
