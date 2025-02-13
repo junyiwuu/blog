@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/top_page_placeholder.md",
+                "file": "content/docs/vulkan/GLSL/compileGLSLtoSPIRV.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "top_page_placeholder"
+              "title": "compileGLSLtoSPIRV"
             }
           }
         ],
@@ -185,23 +185,28 @@
   },
   "active": "ff4d3b91ca8f1a1b",
   "lastOpenFiles": [
-    "content/docs/index.md",
+    "Pasted image 20250212221325 1.png",
+    "content/docs/vulkan/GLSL/compileGLSLtoSPIRV.md",
+    "Pasted image 20250212221325.png",
+    "Pasted image 20250212221323.png",
+    "content/docs/vulkan/GLSL/GLSL.md",
+    "content/docs/vulkan/vulkanProjectInstall.md",
+    "content/docs/Cpp/compileCpp.md",
+    "content/docs/linux/cuda.md",
     "content/docs/virtual environment/conda.md",
     "content/docs/linux/commonCommands.md",
+    "content/docs/top_page_placeholder.md",
+    "content/docs/index.md",
     "content/docs/guides/docGuide.md",
     "content/docs/guides/docguide.md",
-    "content/docs/top_page_placeholder.md",
     "content/docs/linux/commonInstall.md",
     "content/docs/linux/issues.md",
     "content/docs/vulkan/VKcolletcions/pipeline.md",
     "content/docs/vulkan/VKcolletcions/instance.md",
-    "content/docs/vulkan/GLSL/GLSL.md",
-    "content/docs/vulkan/GLSL/compileGLSLtoSPIRV.md",
     "content/docs/linux",
     "content/docs/vulkan/main.md",
     "content/docs/vulkan/file.md",
     "content/docs/virtual environment",
-    "content/docs/Cpp/compileCpp.md",
     "content/docs/Cpp",
     "content/docs/vulkan/VKcolletcions/device.md",
     "content/docs/vulkan/VKcolletcions/others.md",

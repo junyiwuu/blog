@@ -71,3 +71,45 @@ solving environment forever: happen on conda-forge
 
 
 ### need to find where is conda installed, and where is base environment
+
+
+
+
+disable conda base environment not be  activated on startup:
+`conda config --set auto_activate_base false`
+
+
+
+
+## Delete all conda things from the computer
+
+#### check rpm
+`rpm -qa | grep conda` : show all conda relative things, remove them, for example :
+```bash
+sudo dnf remove python3-conda python3-conda-package-handling
+```
+
+#### check PATH:
+`export $PATH` , check if anything conda relative in the output
+
+#### delete others
+
+```bash
+rm -rf ~/.conda ~/.anaconda ~/.jupyter ~/.ipython 
+```
+
+#### clean DNF Metadata (option)
+`sudo dnf clean all`
+
+
+#### verify if conda all gone
+`conda --version`
+
+
+```bash
+export CUDA_HOME=/usr/local/cuda
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+```
+
+

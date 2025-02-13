@@ -16,5 +16,5 @@ we need to compile the shader code into intermediate binary formate (SPIR-V). li
 ---
 In Terminal: `chmod +x compile.sh` make this file executable
 
-  
+
 
