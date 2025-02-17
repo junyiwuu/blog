@@ -20,6 +20,10 @@ gl_VertextIndex: contains the index of the current vertext for each time our mai
 > **layout(location=0):**
 layout qualifier. Specifies the location index of this output variable. currently return 0, meaning this variable will be linked to the first framebuffer
 
+
+>**in**:
+>means this is input data coming into shader
+>
 > **out**:
 this variable is an output of the fragment shader. fragment shader produce color values for each pixel, this is where the color will be stored
 

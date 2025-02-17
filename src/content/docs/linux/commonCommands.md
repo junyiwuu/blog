@@ -2,7 +2,7 @@
 title: Common Commands
 description: Record the commands that I met
 ---
-## Folder permission
+# Folder permission
 ---
 ### Check folder permission
 `ls -ld /path/to`
@@ -40,7 +40,7 @@ description: Record the commands that I met
 ---
 ---
 ---
-## Group
+# Group
 ### Create a new group
 `sudo groupadd __groupname__`
 
@@ -50,3 +50,72 @@ description: Record the commands that I met
 
 ###  Lists users in a group
 `getent group _groupname_`
+
+
+---
+---
+---
+# Mount
+## Install 
+
+```sh
+sudo dnf install ntfs-3g
+```
+
+## Find the partition
+```sh
+lsblk
+```
+
+for example : /dev/sdb2
+
+## Mount it 
+
+```sh
+sudo mount -t ntfs-3g /dev/sdb2 /mnt/D
+```
+`-t`: specify the file system type
+
+**Make it always mount after reboot**:
+```sh
+sudo nano /etc/fstab
+```
+add line at the end: 
+```
+/dev/sdb2   /mnt/D   ntfs-3g   defaults   0   0
+```
+`defaults` : mount options
+>- `rw` → Read & write access
+>- `suid` → Allow set-user-ID programs
+>- `dev` → Allow device files (e.g., `/dev/null`)
+>- `exec` → Allow executing binaries
+>- `auto` → Mount automatically at boot
+>- `nouser` → Only root can mount
+>- `async` → Enable asynchronous I/O
+
+
+`0`:  Dump option, control filesystem backup 
+> `0` means do not backup with the dump command
+
+`0` : Filesystem check order,  controls `fsck` (filesystem check) at boot
+>`0` means do not check (recommended for NTFS)
+>Linux-native filesystems (like `ext4`) usually have `1` or `2` instead.
+
+Then reload:
+```sh
+sudo mount -a
+```
+`-a`: mount all
+
+
+
+---
+---
+---
+
+# Finding
+
+already in a folder, and want to find anything name with "aa" (recursively)
+`find . -name "*aa*"`
+
+`ls *aa*`

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/linux/ssh.md",
+                "file": "content/docs/linux/tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ssh"
+              "title": "tools"
             }
           }
         ],
@@ -185,35 +185,40 @@
   },
   "active": "ff4d3b91ca8f1a1b",
   "lastOpenFiles": [
-    "content/docs/vulkan/main.md",
+    "content/docs/windows/windows.md",
+    "content/docs/windows",
+    "content/docs/python/python_notes_collection.md",
+    "content/docs/python",
+    "Untitled.md",
+    "content/docs/linux/commonCommands.md",
+    "content/docs/linux/tools.md",
+    "content/docs/linux/issues.md",
+    "content/docs/linux/cuda.md",
+    "content/docs/linux/commonInstall.md",
     "content/docs/linux/ssh.md",
-    "content/docs/vulkan/file.md",
     "content/docs/linux/wine.md",
+    "content/docs/virtual environment/conda.md",
+    "content/docs/guides/docguide.md",
+    "content/docs/vulkan/main.md",
+    "content/docs/Cpp/grammar.md",
+    "content/docs/Cpp/compileCpp.md",
+    "content/docs/vulkan/GLSL/GLSL.md",
+    "content/docs/vulkan/file.md",
+    "content/docs/vulkan/vulkanProjectInstall.md",
+    "Pasted image 20250213211613.png",
+    "content/docs/vulkan/createWindow.md",
     "content/docs/vulkan/GLSL/compileGLSLtoSPIRV.md",
     "Pasted image 20250212221325 1.png",
     "Pasted image 20250212221325.png",
     "Pasted image 20250212221323.png",
-    "content/docs/vulkan/GLSL/GLSL.md",
-    "content/docs/vulkan/vulkanProjectInstall.md",
-    "content/docs/Cpp/compileCpp.md",
-    "content/docs/linux/cuda.md",
-    "content/docs/virtual environment/conda.md",
-    "content/docs/linux/commonCommands.md",
     "content/docs/top_page_placeholder.md",
     "content/docs/index.md",
     "content/docs/guides/docGuide.md",
-    "content/docs/guides/docguide.md",
-    "content/docs/linux/commonInstall.md",
-    "content/docs/linux/issues.md",
     "content/docs/vulkan/VKcolletcions/pipeline.md",
     "content/docs/vulkan/VKcolletcions/instance.md",
     "content/docs/linux",
     "content/docs/virtual environment",
     "content/docs/Cpp",
-    "content/docs/vulkan/VKcolletcions/device.md",
-    "content/docs/vulkan/VKcolletcions/others.md",
-    "content/docs/vulkan/createWindow.md",
-    "content/docs/vulkan/VKcolletcions/shaderModule.md",
-    "content/docs/guides/dataAnalytic.md"
+    "content/docs/vulkan/VKcolletcions/device.md"
   ]
 }

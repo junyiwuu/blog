@@ -8,3 +8,5 @@ description: record the issues that I met
 ### Restoring RPM package permissions and ownership
 `sudo rpm --setperms -a` : restoring the permissions
 `sudo rpm --setugids -a`: restoring the ownership
+
+
