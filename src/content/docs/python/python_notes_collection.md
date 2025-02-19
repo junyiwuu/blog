@@ -418,11 +418,6 @@ with pd.ExcelFile('multi_sheets.xlsx') as xls:
 
 
 ---
-## pyAgrum
-`import pyAgrum as gum`
-`import pyAgrum.lib.notebook as gnb`
-
-
 
 
 
@@ -444,3 +439,31 @@ for example when executing`print(dir(iris))` we can see  `['DESCR', 'data', 'dat
 These are variables
 
 `iris.data[: ,0]` select all rows but first column
+
+
+
+---
+
+## pyAgrum
+`import pyAgrum as gum`
+`import pyAgrum.lib.notebook as gnb`
+
+
+logic: 
+1. initialize an empty bayes network
+2. add label --> (variable name, description, number of status)
+	* number of status: pos / neg (2 status)
+3. add arc 连接两个节点的箭头，表示其依赖关系。箭头方向表示影响方向
+4. set up prio P
+5. set conditional possibility
+
+
+code: 
+1. `bn = gum.BayesNet("pregenTest")` initialize
+2. `bn.add(gum.LabelizedVariable("pregnant", "is this woman pregnant?" , 2))` `bn.add(gum.LabelizedVariable("test" , "result of test" , 2))` 
+	add label
+3. `bn.addArc("pregnant", "test")` add arc
+4. `bn.cpt("pregnant").fillWith([0.8, 0.2])` set prio
+5. `bn.cpt("test")[{"pregnant": 0}] = [0.98, 0.02]` `bn.cpt("test")[{"pregnant": 1}] = [0.01, 0.99]` 
+		set conditional probability
+6. `gnb.showInference(bn, evs={"test" :1})` show graph

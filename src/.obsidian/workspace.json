@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/researchStudy/stable diffusion.md",
+                "file": "content/docs/python/python_notes_collection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stable diffusion"
+              "title": "python_notes_collection"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vkver",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,8 +170,18 @@
   },
   "active": "ff4d3b91ca8f1a1b",
   "lastOpenFiles": [
-    "content/docs/virtual environment/conda.md",
     "content/docs/researchStudy/stable diffusion.md",
+    "content/docs/python/python_notes_collection.md",
+    "content/docs/vulkan/VKcolletcions/buffers.md",
+    "content/docs/vulkan/helplers/lveDevice_createBuffer.md",
+    "content/docs/vulkan/VKcolletcions/descriptors.md",
+    "Untitled.md",
+    "content/docs/vulkan/helplers",
+    "content/docs/vulkan/GLSL/GLSL.md",
+    "content/docs/vulkan/VKcolletcions/device.md",
+    "content/docs/vulkan/main.md",
+    "content/docs/Cpp/glm.md",
+    "content/docs/virtual environment/conda.md",
     "content/docs/linux/commonCommands.md",
     "content/docs/linux/issues.md",
     "content/docs/guides/docguide.md",
@@ -180,26 +190,17 @@
     "content/docs/linux/cuda.md",
     "content/docs/linux/commonInstall.md",
     "content/docs/Cpp/grammar.md",
-    "content/docs/Cpp/glm.md",
     "content/docs/Cpp/compileCpp.md",
     "content/docs/index.md",
     "content/docs/top_page_placeholder.md",
     "content/docs/vulkan/file.md",
     "content/docs/vulkan/createWindow.md",
     "content/docs/vulkan/userInput/keyboard.md",
-    "content/docs/python/python_notes_collection.md",
     "content/docs/linux/tools.md",
     "content/docs/linux/ssh.md",
-    "content/docs/vulkan/main.md",
     "content/docs/vulkan/userInput",
-    "content/docs/vulkan/VKcolletcions/swapChain.md",
-    "content/docs/vulkan/VKcolletcions/device.md",
-    "content/docs/vulkan/VKcolletcions/instance.md",
-    "content/docs/windows/windows.md",
     "content/docs/windows",
     "content/docs/python",
-    "Untitled.md",
-    "content/docs/vulkan/GLSL/GLSL.md",
     "Pasted image 20250213211613.png",
     "Pasted image 20250212221325 1.png",
     "Pasted image 20250212221325.png",
