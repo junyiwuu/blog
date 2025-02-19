@@ -33,6 +33,14 @@ export default defineConfig({
 					autogenerate: { directory: 'linux' },
 				},
 				{
+					label: 'Research Study',
+					autogenerate: { directory: 'researchStudy' },
+				},
+				{
+					label: 'Python',
+					autogenerate: { directory: 'python' },
+				},
+				{
 					label: 'Virtual Environment',
 					autogenerate: { directory: 'virtual environment' },
 				},

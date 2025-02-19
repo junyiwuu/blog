@@ -49,32 +49,25 @@ conda commands available from other packages:
 
 
 ## Remove the environment
-
 `conda remove --name myenv --all`
 
 
 
 ## List all existed env
-
-
 `conda env list`
 
+### Check if specific package is installed
+`conda list | grep -E "diffusers"`
 
 log: 
 `conda install -y -c pytorch pytorch=2.0.0 torchaudio=2.0.0 torchvision=0.15.0`
 this is done, with one error: Solving environment: failed with initial frozen solve. Retrying with flexible solve.
 
 
-solving environment forever: happen on conda-forge
 
 
 
-
-### need to find where is conda installed, and where is base environment
-
-
-
-
+## disable conda base environment
 disable conda base environment not be  activated on startup:
 `conda config --set auto_activate_base false`
 
@@ -113,3 +106,67 @@ export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 ```
 
 
+
+## Make sure we are install under conda
+```bash
+conda install python=3.10
+```
+and run 
+`which python`, `which pip` it should show something relative conda
+if it is not under conda path, then something wrong
+
+> **Always use conda  if available, for package that not available under conda, use pip
+
+
+## Jupyter notebook select Conda env
+logic: create conda env --> under this env, create a kernel that jupyter notebook can use --> inside jupyter notebook, select and using that kernel
+
+first `pip install ipykernel`
+
+##### create a kernel
+**run** `python -m ipykernel install --user --name=stable_diffusion2 --display-name "Python (stable_diffusion2)"`
+
+##### how can i know if this kernel is point to correct env
+```
+cat /home/user/.local/share/jupyter/kernels/stable_diffusion2/kernel.json
+```
+you can see something like 
+
+```
+{
+ "argv": [
+  "/home/user/anaconda3/envs/stable_diffusion2/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python (stable_diffusion2)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+```
+so you can see it is pointing to my specific conda environment
+##### 1. `python -m ipykernel install`
+
+- `python -m`: Runs a **Python module** as a script.
+- `ipykernel install`: Registers a new **Jupyter Kernel**, which is an execution environment for Jupyter Notebook.
+
+##### **2. `--user`**
+
+- Installs the kernel **only for the current user**, not system-wide.
+- Prevents permission issues when running without admin/root access.
+
+##### **3. `--name=sd-env`**
+
+- **Internal name** for the kernel (used by Jupyter to identify it).
+- Should match your Conda environment name (`sd-env` in this case).
+
+##### **4. `--display-name "Python (sd-env)"`**
+
+- **Human-readable name** that appears in Jupyter Notebook's kernel selection.
+- This makes it easy to recognize when choosing a kernel in **VS Code or Jupyter**.
+
+
+**check kernel list** : `jupyter kernelspec list`

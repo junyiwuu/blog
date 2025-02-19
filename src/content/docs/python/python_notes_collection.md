@@ -2,24 +2,24 @@
 title: Python Notes Collection
 description: python notes collection, target on completing all homework smoothly
 ---
-# Common python things
+## Common python things
 
-## def Format
+### def Format
 ```python
 def ceaserCipherDecription(usr: str , shift: int )  :
 ```
 
 
-##  format
+###  format
 ```python
 print( '{:s} {:s} {:d}'.format(hello, world, 2018))  # prints “hello world 2018”
 ```
 
-# Resources
+## Resources
 [Python for Data Analysis](https://wesmckinney.com/book/)
 
 
-# Numpy
+## Numpy
 `import numpy as np`
 
 `np.array`
@@ -155,7 +155,7 @@ transpose: `M.P`
 
 
 
-# Matplotlib
+## Matplotlib
 `import matplotlib.pyplot as plt`
 
 * python library for generating 2D and 3D plots
@@ -238,7 +238,7 @@ fig.tight_layout()
 * 100: basic display
  * 300: print quality
 ---
-## Pie Chart
+### Pie Chart
 ```python
 labels = "a", "b", "c"  #name, position match percentage
 data = [10,30,60]       #percentage
@@ -256,12 +256,12 @@ plt.pie(data, explode = explode, labels = labels, autopct='%1.1f%%', startangle=
 `startangle=` : rotate the pie chart
 
 ---
-## Scatter Plot
+### Scatter Plot
 `plt.scatter(x, y)`
 
 
 ---
-## Bar Plot
+### Bar Plot
 ```python
 labels = ['G1', 'G2', 'G3', 'G4', 'G5'] # define five groups
 men_means = [20, 34, 30, 35, 27]    # each group corresponds to a value
@@ -279,17 +279,17 @@ plt.show()
 
 
 ---
-## Histograms
+### Histograms
 `plt.hist(x, bins=100)`  100 bins
 
 ---
-## Save to file
+### Save to file
 `fig.savefig("output.jpg")`
 `fig.savefig("output.pdf", dpi=200)`
 
 ---
 
-## 3D figure
+### 3D figure
 `from mpl_toolkits.mplot3d.axes3d import Axes3D`
 ```python
 fig = plt.figure(figsize=(8,4))
@@ -307,7 +307,7 @@ im = ax2.plot_wireframe(X,Y,Z, rstride=10, cstride=10)
 
 
 ---
-# Pandas
+## Pandas
 `import pandas as pd`
 
 `pd.Series( [1, "abc", 3.14, -1000, "morning!"] )` 
@@ -337,7 +337,7 @@ S = pd.Series(dic)
 `print(S[ S.isnull() ]` print all elements that is null values
 
 ---
-## DataFrames
+### DataFrames
 
 ```python
 # data is a dictionary with four keys, and a list corresponding to each key
@@ -356,7 +356,7 @@ football = pd.DataFrame(data, columns=['year', 'team', 'wins', 'losses']) # keys
 `del football` delete the dataframe
 
 ---
-## I/O CSV files
+### I/O CSV files
 * Import : `df = pd.read_csv("file.csv")` 
 	* `pd.read_csv("file.csv", index_col=0)` 
 	* `pd.read_csv("file.csv", names=["others1","others2"])`  give the headder
@@ -369,7 +369,7 @@ football = pd.DataFrame(data, columns=['year', 'team', 'wins', 'losses']) # keys
 
 ---
 
-## I/O Excel files
+### I/O Excel files
 need openpyxl module `pip install openpyxl`
 
 `df.to_excel("output.xlsx", index=False` index false to avoid writing header information
@@ -400,7 +400,7 @@ with pd.ExcelFile('multi_sheets.xlsx') as xls:
 
 
 ---
-# Scikit
+## Scikit
 `pip install scikit-learn`
 `import sklearn`
 
@@ -418,7 +418,7 @@ with pd.ExcelFile('multi_sheets.xlsx') as xls:
 
 
 ---
-# pyAgrum
+## pyAgrum
 `import pyAgrum as gum`
 `import pyAgrum.lib.notebook as gnb`
 
@@ -427,7 +427,7 @@ with pd.ExcelFile('multi_sheets.xlsx') as xls:
 
 
 ---
-# Scikit
+## Scikit
 
 
 

@@ -4,7 +4,7 @@ description: how to read file, how to handle file
 ---
 
 
-### **How to read the file**
+## **How to read the file**
 
 * `std::ifstream` input stream, for reading files
 * `file()` file function, ( filepath ,bit flags(open mode))

@@ -252,3 +252,61 @@ how to transfer orthographic view volume into vulkan canonical view volume
 
 numerator --> canonical view volume dimensions
 denominator --> orthographic view volume
+
+
+
+# chapter 13
+
+in the lve_camera.cpp --> implementing orthographic projection and perspective projection
+-->then use the camera in the simple_render_system
+
+**resize window but not affecting model size**
+`float aspect = lveRenderer.getAspectRatio();`
+`camera.setOrthoProjection(-aspect, aspect, -1, 1, -1, 1);`
+this under `glfwPollEvents()`, and it update live-time aspect all the time
+
+
+
+`auto projectionView = camera.getProjection() * camera.getView();`
+
+`camera.getProjection()` returns projectionMatrix
+`camera.getView()` returns viewMatrix
+
+in first_app.cpp, called 
+`camera.setPerspProjection(glm::radians(50.f) , aspect, 0.1f, 10.f);`
+then go back, it called
+```cpp
+void LveCamera::setPerspProjection(float fovy, float aspect, float near, float far){
+assert( glm::abs(aspect - std::numeric_limits<float>::epsilon()) > 0.0f );
+  
+const float tanHalfFovy = tan(fovy / 2.f);
+projectionMatrix = glm::mat4{0.0f};
+projectionMatrix[0][0] = 1.f / (aspect*tanHalfFovy);
+projectionMatrix[1][1] = 1.f / (tanHalfFovy);\
+projectionMatrix[2][2] = far / (far-near);
+projectionMatrix[3][2] = - (far*near) / (far-near);
+projectionMatrix[2][3] = 1.f;
+}
+```
+these changed/update the projectionMatrix private member
+then in simple_render_system , we need to get projection view
+`auto projectionView = camera.getProjection() * camera.getView();`
+projection matrix * view matrix(cam matrix)
+
+then update push constant
+`push.transform = projectionView* obj.transform.mat4();`
+actually change the objects' positions
+
+
+
+# chapter 15
+
+date and time library: `#include <chrono>`
+Get the current time: `auto currentTime = std::chrono::high_resolution_clock::now();`
+
+`float frameTime = std::chrono::duration<float, std::chrono::seconds::period>(newTime - currentTime).count();`
+* `std::chrono::duration` : period define the time unit
+* `std::chrono::seconds::period` --> we tell `duration` use seconds as the time unit 
+* construct a duration object, use float as the representation type for the duration
+
+* contains the elapsed time from the subtraction

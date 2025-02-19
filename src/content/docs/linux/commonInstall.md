@@ -2,7 +2,7 @@
 title: Common Install
 description: common but not common commands
 ---
-# Install Nvidia-driver
+## Install Nvidia-driver
 [Rocky official instructions](https://forums.rockylinux.org/t/nvidia-drivers-on-rocky-linux/12366)
 ```graphql
 # elrepo-release and epel-release are part of extras

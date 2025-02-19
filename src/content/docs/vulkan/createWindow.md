@@ -5,7 +5,7 @@ title: Window Creation
 
 
 
-### glfwWindowHint (int hint, int value) :
+## glfwWindowHint (int hint, int value) :
 [glfwWindowHint link](https://www.glfw.org/docs/3.3/group__window.html#ga7d9c8c62384b1e2821c4dc48952d2033)
 
 
@@ -24,7 +24,7 @@ title: Window Creation
 >A configuration setting or guideline provided by the developer to influence how the system behaves. In the GLFW context, hints are parameters used to define the properties of a window or OpenGL context, such as whether double buffering is enabled (GLFW_DOUBLEBUFFER). These hints can be hard or soft constraints, depending on the specific functionality and context.
 
 ---
-### GLFWwindow:
+## GLFWwindow:
 [window object](https://www.glfw.org/docs/3.3/window_guide.html#window_object)
 
 - GLFWwindow object encapsulates both a window and a context : glfwCreateWIndow, glfwDestroyWindow, glfwTerminate.
@@ -32,7 +32,7 @@ title: Window Creation
 - GLFWwindow: share resource in the context, here is nullptr, means no share context with any window.
 
 ---
-### glfwWindowShouldClose:
+## glfwWindowShouldClose:
 [glfwWindowShouldClose](https://www.glfw.org/docs/3.3/group__window.html#ga24e02fbfefbb81fc45320989f8140ab5)
 
 What does it do: check if GLFW window required to close.
@@ -46,7 +46,7 @@ parameter: THE window
 return: the value of close flag
 
   
-### what we do in this chaper:
+## what we do in this chaper:
 goal: create a window
   
 steps:

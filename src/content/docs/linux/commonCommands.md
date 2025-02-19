@@ -2,8 +2,12 @@
 title: Common Commands
 description: Record the commands that I met
 ---
-# Folder permission
+this is overview?
+
+
 ---
+## Folder permission
+
 ### Check folder permission
 `ls -ld /path/to`
 ####  Check if you have write permission
@@ -40,7 +44,7 @@ description: Record the commands that I met
 ---
 ---
 ---
-# Group
+## Group
 ### Create a new group
 `sudo groupadd __groupname__`
 
@@ -55,21 +59,21 @@ description: Record the commands that I met
 ---
 ---
 ---
-# Mount
-## Install 
+## Mount
+### Install 
 
 ```sh
 sudo dnf install ntfs-3g
 ```
 
-## Find the partition
+### Find the partition
 ```sh
 lsblk
 ```
 
 for example : /dev/sdb2
 
-## Mount it 
+### Mount it 
 
 ```sh
 sudo mount -t ntfs-3g /dev/sdb2 /mnt/D
@@ -113,9 +117,25 @@ sudo mount -a
 ---
 ---
 
-# Finding
+## Finding
 
 already in a folder, and want to find anything name with "aa" (recursively)
 `find . -name "*aa*"`
 
 `ls *aa*`
+
+
+
+
+
+
+---
+## Kernel
+**Show current kernel**
+`uname -r`
+
+**List all kernels**
+`rpm -q kernel`
+
+**Remove certain kernel**
+`sudo dnf remove kernel-<version>`

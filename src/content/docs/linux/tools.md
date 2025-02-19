@@ -2,14 +2,14 @@
 title: Tools
 description: some tools that I used
 ---
-# Sync two folders (bidirectional synchronization)
+## Sync two folders (bidirectional synchronization)
 ---
-## Install:
+### Install
 ```sh
 sudo dnf install unison
 ```
 ---
-## Initial sync
+### Initial sync
 ```sh
 unison /path/to/folderA /path/to/folderB -auto -batch
 ```
@@ -26,8 +26,8 @@ unison /path/to/folderA /path/to/folderB -auto -batch -perms 0
 ```
 
 ---
-## Build connection
-### Sync every xx seconds
+### Build connection
+#### Sync every xx seconds
 `while true; do unison /path/to/folderA /path/to/folderB -auto -batch; sleep 5; done`
 This is a Bash infinite loop that repeatedly runs Unison every 5 seconds
 * `do`: marks the beginning of the loop body
@@ -39,7 +39,7 @@ This is a Bash infinite loop that repeatedly runs Unison every 5 seconds
 
 <hr style="border-top: 2px dashed rgb(218,201,166, 0.5);">
 
-### Watch mode
+#### Watch mode
 (terminal open, stop when terminal window close)
 Monitor file changes in real-time and sync only when necessary
 ```sh
@@ -101,7 +101,7 @@ sudo systemctl disable unison-sync
 
 
 ---
-## Break connection
+### Break connection
 
 **If Unison is running in a loop, kill it**:
 For example : in `while true` --> execute `pkill unison`

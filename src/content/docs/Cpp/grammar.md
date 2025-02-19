@@ -2,7 +2,7 @@
 title: C++ study notes collection
 description: Here only  collect something that I atm feel I want to knowledge backup
 ---
-# Static
+## Static
 ```cpp
 // Example 1: Normal function
 int getNumber() {
@@ -32,3 +32,56 @@ static LveGameObject createGameObject()
 * `static`: can be called without an instance
 * `LveGameObject`: data type
 * `createGameObject()` : function name
+
+
+
+## Template
+`<  > ` are used for templates. and template can actually accept multiple template parameters, not just one.
+
+For example: 
+```cpp
+std::pair<int, std::string> person(42, "John");
+```
+
+### example: `std::pair`
+```cpp
+int main() {
+	std::pair<int , std::string>person(22, "kk");
+	std::cout<<person.second<<std::endl;
+	return 0;
+	}
+```
+output: `kk`
+
+'
+
+
+## Class
+```cpp
+class AA{
+	public:
+	struct A_struct{
+		int xx = 10;
+		int yy = 20;
+	}
+	float member1{0.f};
+	float member2{1.f};
+}
+```
+
+when instance AA , for example `AA AA_object{}` , It initialize, but nothing to do with struct, only initialize members
+
+
+If auto-initialize the struct, the class would have a struct-initialize-member inside
+```cpp
+class AA{
+	public:
+	struct A_struct{
+		int xx = 10;
+		int yy = 20;
+	}
+	float member1{0.f};
+	float member2{1.f};
+	A_struct BB{};   //after adding this, when instance, struct will be initialized
+}
+```
