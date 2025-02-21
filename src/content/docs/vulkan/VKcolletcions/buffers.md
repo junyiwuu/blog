@@ -125,6 +125,27 @@ The CPU doesn't handle the final presentation to the screen. The GPU renders the
 - Synchronizing operations
 
 
+Host : the code in CPU
+Device: GPU
+
+Most efficient for device access : 
+> `VK_MEMORY_PROPERTY_DEVICE_LOCAL_BIT` bit specifies that memory allocated with this type is the most efficient for device access. This property will be set if and only if the memory type belongs to a heap with the `VK_MEMORY_HEAP_DEVICE_LOCAL_BIT` set.
+
+This method, the memory can be fast access by GPU, but CPU cannot direct do something on it. This usually mean VRAM
+1. We need to copy the data from host to a temporary buffer that is visible to host
+2. copy the data to the device local memory (VRAM)by using vkCommandCopyBuffer function
+3. once copied, destroyed the temporary buffer / staging buffer  --> by VkUnmapMemory()) (for data on the host)) and VkDestroyBuffer() (for staging buffer)
+
+**Understand these flag:**
+`VK_BUFFER_USAGE_TRANSFER_SRC_BIT` : the buffer create here will be used as the source location for a memory transfer operation
+`K_MEMORY_PROPERTY_HOST_VISIBLE_BIT` : visible to host
+`VK_MEMORY_PROPERTY_HOST_COHERENT_BIT`: whenever we update memory on the host side , automatically flush that data to the device side
+[VkMemoryPropertyFlagBits information](https://registry.khronos.org/vulkan/specs/latest/man/html/VkMemoryPropertyFlagBits.html)
+
+
+`VK_BUFFER_USAGE_TRANSFER_DST_BIT` : Buffer can be used as the destination of a transfer command
+[VkBufferUsageFlagBits information](https://registry.khronos.org/vulkan/specs/latest/man/html/VkBufferUsageFlagBits.html)
+
 ### in draw function
 
 check if index buffer available

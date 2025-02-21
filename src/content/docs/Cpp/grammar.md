@@ -85,3 +85,22 @@ class AA{
 	A_struct BB{};   //after adding this, when instance, struct will be initialized
 }
 ```
+
+
+---
+
+## Unordered Map
+
+```cpp
+#include <unordered_map> std::unordered_map<string, int> scores;  // Key type is string, value type is int 
+
+scores["Alice"] = 100; 
+scores["Bob"] = 95; 
+scores["Charlie"] = 88;`
+```
+Unordered_map is a container that stores key-value pairs
+* It uses hash table internally
+* Elements are not stored in any particular order
+* O(1) compared to `map` which is O(log n)
+* But use more memory than `map` due to hash table structure
+* needs to handle collision

@@ -139,3 +139,18 @@ already in a folder, and want to find anything name with "aa" (recursively)
 
 **Remove certain kernel**
 `sudo dnf remove kernel-<version>`
+
+**check GRUB** so the deleted kernel not display on the GRUB boot menu
+1. check`ls /boot/vmlinuz-* /boot/initramfs-*` then you  might see:
+```
+[xxx]$ ls /boot/vmlinuz-*
+/boot/vmlinuz-0-rescue-5b633ea425544c99914b0944b06a7c25
+/boot/vmlinuz-5.14.0-503.23.1.el9_5.x86_64
+/boot/vmlinuz-5.14.0-503.23.2.el9_5.x86_64
+[xxx]$ ls /boot/initramfs-*
+/boot/initramfs-0-rescue-5b633ea425544c99914b0944b06a7c25.img
+/boot/initramfs-5.14.0-503.23.1.el9_5.x86_64.img
+/boot/initramfs-5.14.0-503.23.1.el9_5.x86_64kdump.img
+/boot/initramfs-5.14.0-503.23.2.el9_5.x86_64.img
+/boot/initramfs-5.14.0-503.23.2.el9_5.x86_64kdump.img
+```
