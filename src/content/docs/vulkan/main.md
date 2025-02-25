@@ -310,3 +310,24 @@ Get the current time: `auto currentTime = std::chrono::high_resolution_clock::no
 * construct a duration object, use float as the representation type for the duration
 
 * contains the elapsed time from the subtraction
+
+---
+
+## Chapter 18
+
+1. **Definition of a Lambertian Surface:**  
+    A Lambertian surface scatters incoming light uniformly in all directions. Its appearance doesn’t change with the viewer’s angle, meaning it’s "perfectly diffuse."
+    
+2. **Projected Area Effect:**  
+    When light strikes a surface at an angle θ\theta from the normal, the effective area that intercepts the light is reduced by a factor of cos⁡θ\cos \theta. _In other words, as θ\theta increases, the same beam of light is spread over a larger area, decreasing the light intensity per unit area._
+    
+3. **Intensity and Reflected Light:**  
+    The brightness or perceived color of the surface is directly related to the intensity of the reflected light. Since the amount of light incident on the surface is proportional to cos⁡θ\cos \theta, the reflected intensity (and therefore the color as perceived) is also proportional to cos⁡θ\cos \theta.
+    
+4. **Energy Conservation:**  
+    Despite the change in local brightness due to the cosine factor, a Lambertian surface redistributes the reflected light uniformly over the hemisphere above it. This ensures that the total reflected energy is conserved, maintaining the diffuse, angle-independent appearance.
+    
+
+a * b = ||a|| * ||b|| * cos⁡θ
+if a and b are normalized --> ||a|| = 1, ||b|| = 1
+Then a * b = cos⁡θ = light intensity

@@ -52,7 +52,6 @@ conda commands available from other packages:
 `conda remove --name myenv --all`
 
 
-
 ## List all existed env
 `conda env list`
 
@@ -63,6 +62,9 @@ log:
 `conda install -y -c pytorch pytorch=2.0.0 torchaudio=2.0.0 torchvision=0.15.0`
 this is done, with one error: Solving environment: failed with initial frozen solve. Retrying with flexible solve.
 
+### Delete specific package
+`conda remove torch`
+* notice: if something suddenly broken in your conda environment, just remove that thing, and re-install. Debug will take too long time
 
 
 
@@ -98,7 +100,6 @@ rm -rf ~/.conda ~/.anaconda ~/.jupyter ~/.ipython
 #### verify if conda all gone
 `conda --version`
 
-
 ```bash
 export CUDA_HOME=/usr/local/cuda
 export PATH=$CUDA_HOME/bin:$PATH
@@ -116,6 +117,8 @@ and run
 if it is not under conda path, then something wrong
 
 > **Always use conda  if available, for package that not available under conda, use pip
+
+---
 
 
 ## Jupyter notebook select Conda env

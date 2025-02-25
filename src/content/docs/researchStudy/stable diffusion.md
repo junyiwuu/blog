@@ -1,5 +1,5 @@
 ---
-title: stabke diiffusiion
+title: Stable Diffusion
 description: Will recording via date, since it is not technical collection anymore
 ---
 
@@ -204,4 +204,5 @@ Overal:
 
 
 ---
-#### Couple a model with a scheduler
+## Feb 24
+

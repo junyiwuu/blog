@@ -104,3 +104,12 @@ Unordered_map is a container that stores key-value pairs
 * O(1) compared to `map` which is O(log n)
 * But use more memory than `map` due to hash table structure
 * needs to handle collision
+
+
+---
+## Preprocessor
+The preprocessor is a tool that runs before your source code is compiled. Its main functions include:
+- **Processing Directives:** It handles instructions that start with `#`, such as `#include`, `#define`, and `#ifdef`.
+	-These directives tell the preprocessor to include other files, define macros, or conditionally compile parts of your code.
+- **Macro Expansion:** It replaces macros with their defined values or code snippets.
+- **File Inclusion:** It inserts the content of header files into your source code when you use `#include`.

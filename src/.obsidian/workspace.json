@@ -8,20 +8,77 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff4d3b91ca8f1a1b",
+            "id": "08b945f6e3b1ecef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/Cpp/grammar.md",
+                "file": "content/docs/researchStudy/basic_pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "grammar"
+              "title": "basic_pipeline"
+            }
+          },
+          {
+            "id": "205c7c6a5be5b00b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/researchStudy/buildDiffusionModelFromScratch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "buildDiffusionModelFromScratch"
+            }
+          },
+          {
+            "id": "ff451021361cb4a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/researchStudy/trainDiffusionModel.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "trainDiffusionModel"
+            }
+          },
+          {
+            "id": "a4cd440c6c3afa06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/researchStudy/stable diffusion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "stable diffusion"
+            }
+          },
+          {
+            "id": "ad8a5f4c9aee15dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/researchStudy/buildDiffusionModelFromScratch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "buildDiffusionModelFromScratch"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kerne",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,36 +225,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff4d3b91ca8f1a1b",
+  "active": "205c7c6a5be5b00b",
   "lastOpenFiles": [
-    "content/docs/Cpp/hashFunction.md",
-    "content/docs/vulkan/VKcolletcions/loadModel.md",
     "content/docs/researchStudy/basic_pipeline.md",
     "content/docs/researchStudy/stable diffusion.md",
-    "content/docs/python/python_notes_collection.md",
-    "content/docs/reference/example.md",
+    "conceptNotes.md",
+    "content/docs/researchStudy/trainDiffusionModel.md",
+    "content/docs/researchStudy/buildDiffusionModelFromScratch.md",
+    "content/docs/virtual environment/conda.md",
+    "content/docs/linux/ssh.md",
+    "content/docs/Cpp/grammar.md",
+    "content/docs/vulkan/VKcolletcions/pushConstant.md",
     "content/docs/vulkan/VKcolletcions/buffers.md",
-    "content/docs/linux/commonCommands.md",
-    "content/docs/vulkan/helplers/lveDevice_createBuffer.md",
+    "content/docs/vulkan/VKcolletcions/others.md",
+    "content/docs/vulkan/VKcolletcions/loadModel.md",
+    "content/docs/vulkan/VKcolletcions/instance.md",
+    "content/docs/vulkan/VKcolletcions/device.md",
     "content/docs/vulkan/VKcolletcions/descriptors.md",
+    "content/docs/vulkan/main.md",
+    "content/docs/vulkan/helplers/lveDevice_createBuffer.md",
+    "content/docs/python/python_notes_collection.md",
+    "content/docs/Cpp/hashFunction.md",
+    "content/docs/reference/example.md",
+    "content/docs/linux/commonCommands.md",
     "Untitled.md",
     "content/docs/vulkan/helplers",
     "content/docs/vulkan/GLSL/GLSL.md",
-    "content/docs/vulkan/VKcolletcions/device.md",
-    "content/docs/vulkan/main.md",
     "content/docs/Cpp/glm.md",
-    "content/docs/virtual environment/conda.md",
     "content/docs/linux/issues.md",
     "content/docs/guides/docguide.md",
     "content/docs/researchStudy",
-    "content/docs/linux/wine.md",
-    "content/docs/linux/cuda.md",
-    "content/docs/linux/commonInstall.md",
-    "content/docs/Cpp/grammar.md",
-    "content/docs/Cpp/compileCpp.md",
-    "content/docs/index.md",
-    "content/docs/top_page_placeholder.md",
-    "content/docs/vulkan/file.md",
     "content/docs/vulkan/userInput",
     "content/docs/windows",
     "content/docs/python",

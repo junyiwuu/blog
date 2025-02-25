@@ -462,8 +462,12 @@ code:
 1. `bn = gum.BayesNet("pregenTest")` initialize
 2. `bn.add(gum.LabelizedVariable("pregnant", "is this woman pregnant?" , 2))` `bn.add(gum.LabelizedVariable("test" , "result of test" , 2))` 
 	add label
+	> `Rain = bn.add(gum.LabelizedVariable('Rain', 'Rain', ["No", "Yes"]))`
+	> 这种属于显式定义取值标签
+	> `Sprinkler = bn.add(gum.LabelizedVariable('Sprinkler', 'Sprinkler', 2))`
+	> 这里属于隐式，2表示变量是binary variable, pyAgrum默认标记为0和1
 3. `bn.addArc("pregnant", "test")` add arc
 4. `bn.cpt("pregnant").fillWith([0.8, 0.2])` set prio
 5. `bn.cpt("test")[{"pregnant": 0}] = [0.98, 0.02]` `bn.cpt("test")[{"pregnant": 1}] = [0.01, 0.99]` 
 		set conditional probability
-6. `gnb.showInference(bn, evs={"test" :1})` show graph
+6. `gnb.showInference(bn, evs={"test" :1})` 设置evidence以及显示结果
