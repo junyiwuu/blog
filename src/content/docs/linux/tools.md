@@ -17,6 +17,7 @@ unison /path/to/folderA /path/to/folderB -auto -batch
 * if both folders have different files already,  unison will merge them
 
 `-auto` :  Automatic Mode. Unison automatically resolve non-conflicting changes. If a file is new or unchanged in both locations, Unison will sync it without asking.
+
 `-batch` : Fully Automatic Mode. this makes Unison completely non-interactive. It assumes the latest modified version wins and resolves all conflicts automatically.
 
 

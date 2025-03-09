@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+ul, ol {
+    list-style: disc !important;
+    padding-left: 20px !important;
+  }

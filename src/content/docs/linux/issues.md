@@ -10,3 +10,4 @@ description: record the issues that I met
 `sudo rpm --setugids -a`: restoring the ownership
 
 
+- test

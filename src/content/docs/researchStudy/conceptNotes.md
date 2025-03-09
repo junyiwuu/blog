@@ -11,7 +11,7 @@ title: Concept Notes
 | torch       | 侧重于通用的深度学习框架功能<br>             |
 | torchvision | 提供图像相关的工具function，预训练模型和常用数据集等 |
 |             |                                |
-### torch.utils
+#### torch.utils
 *  `torch.utils` 是 PyTorch 中的一个工具包集合，里面按子模块划分，提供各种辅助功能。
 - 最常用的子模块是 `torch.utils.data`，主要负责数据集和数据加载器（`Dataset`、`DataLoader`）等。
 
@@ -19,7 +19,7 @@ title: Concept Notes
 - `DataLoader`：负责批量加载数据，常见参数有 `batch_size`、`shuffle`、`num_workers` 等。
 
 ---
-### Examples:
+#### Examples:
 ```python
 import torch
 import torch.utils.data.dataloader
@@ -42,7 +42,7 @@ for a in dataloader:
 
 ---
 
-### Others
+#### Others
 * tensor是pytorch中最基本的数据结构，用于存储数值，并支持运算，相当于多维数组
 * torch.size:当调用tensor的size方法，返回的是torch.size对象，本质上是不可变的tuple,来描述该tensor的个个维度的大小
 
@@ -63,3 +63,18 @@ for a in dataloader:
 - 当你做前向扩散（`add_noise`）时，它会按照预先设计好的公式，给原图混入不同比例的噪声。
 - 在反向扩散时（推理阶段），它也根据相同或对应的公式帮助你一步步去噪，直到得到清晰的图像。  
 换句话说，**Scheduler** 并不会自己“变聪明”，它只是一个“公式”或“流程”的实现。
+
+
+
+
+
+---
+
+## Accelerator
+
+
+
+---
+
+## epoch
+指模型遍历整个训练数据集一次的过程。epoch参数相当于当前训练到第几轮

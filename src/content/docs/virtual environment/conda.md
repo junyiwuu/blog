@@ -75,7 +75,7 @@ disable conda base environment not be  activated on startup:
 
 
 
-
+---
 ## Delete all conda things from the computer
 
 #### check rpm
@@ -107,7 +107,7 @@ export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 ```
 
 
-
+---
 ## Make sure we are install under conda
 ```bash
 conda install python=3.10
@@ -117,6 +117,16 @@ and run
 if it is not under conda path, then something wrong
 
 > **Always use conda  if available, for package that not available under conda, use pip
+
+
+After installed a package, can check in the jupyter notebook: 
+```
+import sklearn
+print(sklearn.__file__)
+```
+output:
+`/home/xxx/anaconda3/envs/data_analytic/lib/python3.10/site-packages/sklearn/__init__.py
+`
 
 ---
 

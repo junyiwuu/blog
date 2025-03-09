@@ -13,6 +13,48 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "content/DS_ML/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "ff451021361cb4a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/python/python_notes_collection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "python_notes_collection"
+            }
+          },
+          {
+            "id": "99f2ec2a94c41bf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/virtual environment/conda.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conda"
+            }
+          },
+          {
+            "id": "b885cedcafd0da9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "content/docs/researchStudy/basic_pipeline.md",
                 "mode": "source",
                 "source": false
@@ -22,35 +64,20 @@
             }
           },
           {
-            "id": "ff451021361cb4a5",
+            "id": "083ade01c7161e1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/researchStudy/conceptNotes.md",
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conceptNotes"
-            }
-          },
-          {
-            "id": "ad8a5f4c9aee15dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/docs/researchStudy/buildDiffusionModelFromScratch.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "buildDiffusionModelFromScratch"
+              "title": "Untitled 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "permute",
+                "query": "npm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,45 +224,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff451021361cb4a5",
+  "active": "08b945f6e3b1ecef",
   "lastOpenFiles": [
+    "content/docs/blog/notes.md",
+    "content/DS_ML/Untitled.md",
+    "content/DS_ML",
     "content/docs/researchStudy/basic_pipeline.md",
-    "content/docs/researchStudy/buildDiffusionModelFromScratch.md",
-    "content/docs/researchStudy/stable diffusion.md",
-    "content/docs/researchStudy/trainDiffusionModel.md",
-    "2025-02-25.md",
-    "Untitled.canvas",
-    "content/docs/researchStudy/conceptNotes.md",
-    "content/docs/virtual environment/conda.md",
-    "content/docs/linux/ssh.md",
-    "content/docs/Cpp/grammar.md",
-    "content/docs/vulkan/VKcolletcions/pushConstant.md",
-    "content/docs/vulkan/VKcolletcions/buffers.md",
-    "content/docs/vulkan/VKcolletcions/others.md",
-    "content/docs/vulkan/VKcolletcions/loadModel.md",
-    "content/docs/vulkan/VKcolletcions/instance.md",
-    "content/docs/vulkan/VKcolletcions/device.md",
-    "content/docs/vulkan/VKcolletcions/descriptors.md",
-    "content/docs/vulkan/main.md",
-    "content/docs/vulkan/helplers/lveDevice_createBuffer.md",
     "content/docs/python/python_notes_collection.md",
-    "content/docs/Cpp/hashFunction.md",
-    "content/docs/reference/example.md",
-    "content/docs/linux/commonCommands.md",
+    "content/docs/virtual environment/conda.md",
+    "Untitled 1.md",
+    "content/docs/researchStudy/buildDiffusionModelFromScratch.md",
+    "content/docs/blog",
+    "content/docs/linux/tools.md",
+    "content/docs/linux/issues.md",
+    "components/Prose.astro",
+    "components",
+    "styles/global.css",
+    "styles",
+    "content/docs/Cpp/compileCpp.mdx",
+    "content/docs/Cpp/compileCpp.md",
+    "scikit.md",
     "Untitled.md",
-    "content/docs/vulkan/helplers",
-    "content/docs/vulkan/GLSL/GLSL.md",
+    "content/docs/vulkan/userInput/keyboard.md",
+    "content/docs/vulkan/helplers/lveDevice_createBuffer.md",
+    "content/docs/vulkan/VKcolletcions/swapChain.md",
+    "content/docs/vulkan/VKcolletcions/descriptors.md",
+    "content/docs/vulkan/VKcolletcions/buffers.md",
+    "content/docs/vulkan/VKcolletcions/device.md",
+    "content/docs/vulkan/VKcolletcions/instance.md",
+    "content/docs/vulkan/VKcolletcions/pipeline.md",
+    "content/docs/vulkan/VKcolletcions/loadModel.md",
+    "content/docs/vulkan/VKcolletcions/shaderModule.md",
+    "content/docs/researchStudy/conceptNotes.md",
+    "content/docs/vulkan/VKcolletcions/pushConstant_uniformBuffer.md",
+    "content/docs/vulkan/main.md",
     "content/docs/Cpp/glm.md",
+    "Untitled.canvas",
+    "content/docs/vulkan/helplers",
     "content/docs/researchStudy",
     "content/docs/vulkan/userInput",
-    "content/docs/windows",
-    "content/docs/python",
     "Pasted image 20250213211613.png",
     "Pasted image 20250212221325 1.png",
     "Pasted image 20250212221325.png",
-    "Pasted image 20250212221323.png",
-    "content/docs/linux",
-    "content/docs/virtual environment",
-    "content/docs/Cpp"
+    "Pasted image 20250212221323.png"
   ]
 }

@@ -2,11 +2,15 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
+//import { getEntry } from "astro:content";
+import mdx from '@astrojs/mdx';
+//import markdown from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
+	
 	integrations: [
-
+		
 		starlight({
 			title: ' (ง ˙o˙)ว',
 			social: {
@@ -54,12 +58,21 @@ export default defineConfig({
 
 					autogenerate: {directory: "vulkan"},
 				},
+				{
+					label: 'Blog',
 
-
-
+					autogenerate: {directory: "blog"},
+				},
 			],
 
 		}),
+		mdx(),
+		//markdown(),
 		tailwind()
 	],
+	markdown: {
+			//extendDefaultPlugins: true,
+			remarkPlugins: [["remark-breaks", {}]],	
+    		rehypePlugins: []
+		  },
 });
