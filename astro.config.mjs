@@ -13,6 +13,9 @@ export default defineConfig({
 		
 		starlight({
 			title: ' (ง ˙o˙)ว',
+			customCss : [
+				'./src/styles/custom.css',
+			],
 			social: {
 				github: 'https://github.com/junyiwuu',
 			},

@@ -226,6 +226,7 @@
   },
   "active": "08b945f6e3b1ecef",
   "lastOpenFiles": [
+    "styles/custom.css",
     "content/docs/blog/notes.md",
     "content/DS_ML/Untitled.md",
     "content/DS_ML",
@@ -258,7 +259,6 @@
     "content/docs/researchStudy/conceptNotes.md",
     "content/docs/vulkan/VKcolletcions/pushConstant_uniformBuffer.md",
     "content/docs/vulkan/main.md",
-    "content/docs/Cpp/glm.md",
     "Untitled.canvas",
     "content/docs/vulkan/helplers",
     "content/docs/researchStudy",

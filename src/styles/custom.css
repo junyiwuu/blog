@@ -1,0 +1,11 @@
+:root{
+  .sl-markdown-content ul {
+	list-style: disc ; 
+	padding-left: 20px ;
+  }
+  
+  .sl-markdown-content ol {
+	list-style: decimal ; 
+	padding-left: 20px ;
+  }
+}
