@@ -40,3 +40,15 @@ Some users may want cuda support. RPMFusion does provide a cuda subpackage.
 
 ---
 
+
+
+## Install Houdini
+**Old Installer way**
+1. Unpack the tar,gz file, and go into the folder
+2. From terminal: `sudo bash houdini.install`
+3. Run the installing
+4. `cd /opt/hfs20.5.522`
+5. `source houdini_setup`
+6. The might showing miss "libSxx" (something like this)
+7. `sudo dnf install libGLU libXScrnSaver`
+8. Run houdini: `houdini`
