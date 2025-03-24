@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49d1ba54c8611377",
+            "id": "06ab56d7cd80d894",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/DS_ML/Visualize.md",
+                "file": "content/docs/researchStudy/Dataset Preparation/batch process.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Visualize"
+              "title": "batch process"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "npm",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4dd12db296070f1a",
@@ -168,45 +169,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49d1ba54c8611377",
+  "active": "06ab56d7cd80d894",
   "lastOpenFiles": [
-    "content/docs/researchStudy/basic_pipeline.md",
-    "content/docs/researchStudy/HashGridPositionalEncoding/tiny-cuda-nn.md",
-    "content/docs/researchStudy/HashGridPositionalEncoding/hash grid positional encoding.md",
-    "content/docs/virtual environment/conda.md",
-    "content/docs/linux/commonInstall.md",
+    "content/docs/researchStudy/Dataset Preparation/Blender script.md",
+    "content/docs/linux/security.md",
+    "content/docs/researchStudy/conceptNotes.md",
+    "content/docs/researchStudy/stable diffusion.md",
     "content/docs/linux/cuda.md",
-    "content/DS_ML/Visualize.md",
-    "content/docs/researchStudy/HashGridPositionalEncoding",
-    "Lora_Example.md",
-    "styles/custom.css",
-    "content/docs/blog/notes.md",
-    "content/DS_ML",
-    "content/docs/python/python_notes_collection.md",
-    "Untitled 1.md",
-    "content/docs/researchStudy/buildDiffusionModelFromScratch.md",
-    "content/docs/blog",
+    "content/docs/linux/Git.md",
+    "content/docs/researchStudy/Dataset Preparation/batch process.md",
+    "content/docs/linux/wine.md",
     "content/docs/linux/tools.md",
+    "content/docs/python/python_notes_collection.md",
+    "content/docs/guides/docguide.md",
+    "Lora_Example.md",
+    "scikit.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "content/docs/vulkan/VKcolletcions/validation layers.md",
+    "Pasted image 20250323143253.png",
+    "content/docs/vulkan/VKcolletcions/swapChain.md",
+    "content/docs/vulkan/VKcolletcions/pipeline.md",
+    "content/docs/vulkan/VKcolletcions/pushConstant_uniformBuffer.md",
+    "content/docs/vulkan/VKcolletcions/shaderModule.md",
+    "content/docs/researchStudy/basic_pipeline.md",
+    "content/docs/researchStudy/Dataset Preparation",
+    "content/docs/linux/commonCommands.md",
+    "content/docs/linux/commonInstall.md",
     "content/docs/linux/issues.md",
+    "content/docs/Cpp/hashFunction.md",
+    "content/docs/Cpp/grammar.md",
+    "content/docs/researchStudy/Paper Read",
+    "content/docs/researchStudy/Image Processing",
+    "content/docs/researchStudy/HashGridPositionalEncoding",
+    "styles/custom.css",
+    "content/DS_ML",
+    "content/docs/blog",
     "components/Prose.astro",
     "components",
     "styles/global.css",
-    "styles",
-    "content/docs/Cpp/compileCpp.mdx",
-    "content/docs/Cpp/compileCpp.md",
-    "scikit.md",
-    "content/docs/vulkan/userInput/keyboard.md",
-    "content/docs/vulkan/helplers/lveDevice_createBuffer.md",
-    "content/docs/vulkan/VKcolletcions/swapChain.md",
-    "content/docs/vulkan/VKcolletcions/descriptors.md",
-    "content/docs/vulkan/VKcolletcions/buffers.md",
-    "content/docs/vulkan/VKcolletcions/device.md",
-    "content/docs/vulkan/VKcolletcions/instance.md",
-    "content/docs/vulkan/VKcolletcions/pipeline.md",
-    "content/docs/vulkan/VKcolletcions/loadModel.md",
-    "content/docs/vulkan/VKcolletcions/shaderModule.md",
     "Untitled.canvas",
-    "content/docs/vulkan/helplers",
     "Pasted image 20250213211613.png",
     "Pasted image 20250212221325 1.png",
     "Pasted image 20250212221325.png",

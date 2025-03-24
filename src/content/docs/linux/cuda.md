@@ -21,10 +21,24 @@ sudo dnf install -y cuda-toolkit-11-8
 export CUDA_HOME=/usr/local/cuda-11.8 
 export PATH=$CUDA_HOME/bin:$PATH 
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+source ~/.bashrc 
 ```
 * after executing PATH, then can check the output of `echo $PATH`
 * LD_LIBRARY_PATH environment path, tells the system where to look for shared libraries (.so files) when running programs
 
+**CUDA_HOME set the path for CUDA TOOLKIT!!**
 
 
 
+---
+
+## Check if you have available cuda (for specific env/proj)
+
+```python
+# 检查 CUDA 是否可用
+print(f"CUDA 是否可用: {torch.cuda.is_available()}")
+if torch.cuda.is_available():
+    print(f"CUDA 设备数量: {torch.cuda.device_count()}")
+    print(f"当前 CUDA 设备: {torch.cuda.current_device()}")
+    print(f"CUDA 设备名称: {torch.cuda.get_device_name(0)}")
+```

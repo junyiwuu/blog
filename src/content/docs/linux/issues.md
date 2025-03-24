@@ -10,4 +10,24 @@ description: record the issues that I met
 `sudo rpm --setugids -a`: restoring the ownership
 
 
-- test
+
+---
+## After Linux Updating, nothing can be launched
+
+*fuck wayland*
+* GNOME: Display Manager
+* wayland: is the new Window Manager
+* X11: the old stable window manager
+
+How to check which one is using:  
+```
+echo $XDG_SESSION_TYPE
+```
+
+How to switch:
+log out --> on the log in page, right bottom corner --> switch to X11
+
+
+---
+
+

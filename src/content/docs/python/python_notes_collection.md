@@ -471,3 +471,22 @@ code:
 5. `bn.cpt("test")[{"pregnant": 0}] = [0.98, 0.02]` `bn.cpt("test")[{"pregnant": 1}] = [0.01, 0.99]` 
 		set conditional probability
 6. `gnb.showInference(bn, evs={"test" :1})` 设置evidence以及显示结果
+
+
+
+
+
+
+
+
+## OS
+`import os`
+
+
+
+| command                      | description                                   |
+| ---------------------------- | --------------------------------------------- |
+| `os.path.join(str1, str2)`   | join two path                                 |
+| `os.makedirs(path)`          | make a new folder (on this path). return None |
+| `files = os.listdir(folder)` | get all files in one folder                   |
+|                              |                                               |

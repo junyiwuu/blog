@@ -154,3 +154,99 @@ already in a folder, and want to find anything name with "aa" (recursively)
 /boot/initramfs-5.14.0-503.23.2.el9_5.x86_64.img
 /boot/initramfs-5.14.0-503.23.2.el9_5.x86_64kdump.img
 ```
+
+
+
+
+---
+## Copy
+
+* copy from our machine to a remote machine:
+`scp myfile.txt ubuntu@192.168.1.30:/home/ubuntu/toRemoteHere.txt`
+
+copy from remote machine to our machine
+`scp ubuntu@192.168.1.30:/home/ubuntu/remoteFile.txt toLocalHere.txt`
+
+
+
+---
+## Serve
+### Turn your computer into a quick and easy web server
+`python3 -m http.server`
+`python3 -m http.server 8000`
+
+* `-m`: tell python to run a module as a script
+
+
+
+
+
+---
+## System
+
+### systemd
+Linux init system, they start when the system start
+
+
+### systemctl
+
+
+`systemctl` is a command allows us to interact with the **systemd** process / daemon
+
+
+`echo "test 123" &`   when adding & at the end, it means put `echo "test 123" ` in the background, and return an ID Number
+
+
+### check certain program PID
+`pgrep sshd`
+
+
+| command      | Description                     |
+| :----------- | :------------------------------ |
+| `pgrep sshd` | check certain program's PID<br> |
+| `echo $!`    | check latest programs           |
+| `ps aux`     | check current running program   |
+|              |                                 |
+|              |                                 |
+|              |                                 |
+
+
+
+---
+## Cron
+
+
+```
+* * * * * command_to_run
+│ │ │ │ │
+│ │ │ │ └── 星期几 (0 - 7) (0 和 7 代表周日)
+│ │ │ └──── 月份 (1 - 12)
+│ │ └────── 日期 (1 - 31)
+│ └──────── 小时 (0 - 23)
+└────────── 分钟 (0 - 59)
+```
+
+
+
+| command      | Description                                                          |
+| :----------- | :------------------------------------------------------------------- |
+| `crontab -l` | list all cron jobs<br>                                               |
+| `crontab -r` | delete all cron jobs                                                 |
+| `crontab -e` | edit all crontab jobs. Also here you can find what cron job you have |
+|              |                                                                      |
+
+
+
+
+---
+
+## traceroute
+
+
+
+| command | Description                  |
+| :------ | :--------------------------- |
+| `eth0`  | ethernet connection<br>      |
+| `wlan0` | wireless internet connection |
+| `lo`    | loop back                    |
+| `tun0`  | vpn interface                |

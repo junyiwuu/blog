@@ -43,3 +43,22 @@ sudo dnf install glm-devel
 
 
 
+## switch between DEBUG mode and RELEASE mode
+1. First check the which compiler is using
+		`c++ --version`
+		currently I am using GCC
+2. Go to the project directory, set to Release or Debug mode -> `cmake -B build -DCMAKE_BUILD_TYPE=Release`
+3. Check if you are really in that mode:
+	1. in the build folder, when compiling, use verbose: `make VERBOSE=1`
+		* if the outcome contains: `/usr/bin/c++ -g ` -g means debug mode
+	2.  use `cat CMakeCache.txt | grep CMAKE_BUILD_TYPE`
+		* the output : `CMAKE_BUILD_TYPE:STRING=Release` means in the Release mode
+4. Compile: 
+	1. go to build file, `make`
+	2. in the project directory (outside build folder), `cmake --build build`
+
+
+
+
+
+
