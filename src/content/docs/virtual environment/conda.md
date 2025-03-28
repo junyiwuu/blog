@@ -46,11 +46,21 @@ conda commands available from other packages:
 * `conda env list`: check available Conda environments
 
 
+## Download / install
+download -> chmod +x path -> run it -> install
+Then add to the path:
+`nano ~/.bashrc` -> `export PATH="$HOME/anaconda3/bin:$PATH"` -> `source ~/.bashrc`
 
 
 ## Remove the environment
 `conda remove --name myenv --all`
+`conda env remove --name myenv`
 
+
+## Remove cache (not packages in using)
+
+`conda remove --all`
+remove cache, it won't affect the existing environments. 
 
 ## List all existed env
 `conda env list`

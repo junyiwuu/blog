@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/researchStudy/Dataset Preparation/batch process.md",
+                "file": "content/docs/researchStudy/conceptNotes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "batch process"
+              "title": "conceptNotes"
+            }
+          },
+          {
+            "id": "a756aeffbfb14266",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/linux/Git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
+          },
+          {
+            "id": "51aabf9816a2ca69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/linux/commonCommands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "commonCommands"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "pytorch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4dd12db296070f1a",
@@ -169,15 +197,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06ab56d7cd80d894",
+  "active": "51aabf9816a2ca69",
   "lastOpenFiles": [
-    "content/docs/researchStudy/Dataset Preparation/Blender script.md",
     "content/docs/linux/security.md",
-    "content/docs/researchStudy/conceptNotes.md",
-    "content/docs/researchStudy/stable diffusion.md",
+    "content/docs/linux/commonCommands.md",
+    "content/docs/linux/commonInstall.md",
     "content/docs/linux/cuda.md",
+    "content/docs/virtual environment/conda.md",
     "content/docs/linux/Git.md",
+    "content/docs/researchStudy/conceptNotes.md",
+    "content/docs/HOUDINI.md",
+    "content/docs/researchStudy/Paper Read/Image Quality Assessment.md",
+    "content/docs/researchStudy/basic_pipeline.md",
+    "content/docs/researchStudy/HashGridPositionalEncoding/tiny-cuda-nn.md",
     "content/docs/researchStudy/Dataset Preparation/batch process.md",
+    "content/docs/researchStudy/Dataset Preparation/Blender script.md",
+    "content/docs/researchStudy/stable diffusion.md",
     "content/docs/linux/wine.md",
     "content/docs/linux/tools.md",
     "content/docs/python/python_notes_collection.md",
@@ -191,14 +226,7 @@
     "content/docs/vulkan/VKcolletcions/swapChain.md",
     "content/docs/vulkan/VKcolletcions/pipeline.md",
     "content/docs/vulkan/VKcolletcions/pushConstant_uniformBuffer.md",
-    "content/docs/vulkan/VKcolletcions/shaderModule.md",
-    "content/docs/researchStudy/basic_pipeline.md",
     "content/docs/researchStudy/Dataset Preparation",
-    "content/docs/linux/commonCommands.md",
-    "content/docs/linux/commonInstall.md",
-    "content/docs/linux/issues.md",
-    "content/docs/Cpp/hashFunction.md",
-    "content/docs/Cpp/grammar.md",
     "content/docs/researchStudy/Paper Read",
     "content/docs/researchStudy/Image Processing",
     "content/docs/researchStudy/HashGridPositionalEncoding",

@@ -213,40 +213,10 @@ Linux init system, they start when the system start
 
 
 ---
-## Cron
-
-
-```
-* * * * * command_to_run
-│ │ │ │ │
-│ │ │ │ └── 星期几 (0 - 7) (0 和 7 代表周日)
-│ │ │ └──── 月份 (1 - 12)
-│ │ └────── 日期 (1 - 31)
-│ └──────── 小时 (0 - 23)
-└────────── 分钟 (0 - 59)
-```
-
-
-
-| command      | Description                                                          |
-| :----------- | :------------------------------------------------------------------- |
-| `crontab -l` | list all cron jobs<br>                                               |
-| `crontab -r` | delete all cron jobs                                                 |
-| `crontab -e` | edit all crontab jobs. Also here you can find what cron job you have |
-|              |                                                                      |
-
-
 
 
 ---
-
-## traceroute
-
-
-
-| command | Description                  |
-| :------ | :--------------------------- |
-| `eth0`  | ethernet connection<br>      |
-| `wlan0` | wireless internet connection |
-| `lo`    | loop back                    |
-| `tun0`  | vpn interface                |
+`sudo ncdu .`  check the disk space
+`nvtop`  check gpu and other parts live-time status
+`mc` : terminal version browsing the files
+`watch -n1 nvidia-smi` : live-time check nvidia graphic card status

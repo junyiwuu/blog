@@ -49,3 +49,9 @@ cat ~/.ssh/id_ed25519.pub
 ```bash
 git remote set-url origin git@github.com:username/repo.git
 ```
+
+
+## Recursive
+**Recursive clone**: `git clone --recurse-submodules <repo_url>`
+If already cloned, **update recursive**: `git submodule update --init --recursive`
+`git clone --recursive https://github.com/pytorch/pytorch`

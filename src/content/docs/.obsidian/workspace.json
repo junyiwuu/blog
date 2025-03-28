@@ -11,10 +11,14 @@
             "id": "bdfd6ed182ba8d7b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "blog/notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "notes"
             }
           }
         ]
@@ -166,14 +170,19 @@
   },
   "active": "bdfd6ed182ba8d7b",
   "lastOpenFiles": [
+    "virtual environment/conda.md",
+    "blog/notes.md",
+    "Houdini/houdini.md",
+    "reference/example.md",
+    "Houdini",
+    "python/python_notes_collection.md",
+    "index.md",
     "vulkan/main.md",
     "vulkan/main 1.md",
     "vulkan/VKcolletcions/instance.md",
     "vulkan/GLSL/GLSL.md",
     "main.md",
-    "Untitled",
     "vulkan/GLSL",
-    "index.md",
     "top_page_placeholder.md"
   ]
 }

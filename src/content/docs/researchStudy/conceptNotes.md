@@ -19,6 +19,12 @@ title: Concept Notes
 - `Dataset`：自定义数据集的基类，需要实现 `__len__` 和 `__getitem__` 两个方法。
 - `DataLoader`：负责批量加载数据，常见参数有 `batch_size`、`shuffle`、`num_workers` 等。
 
+### PyTorch compatible with sm-120 (RTX 5090)
+
+LOGIC: PyTorch的GPU加速是基于CUDA， 所以首先要确保CUDA支持目标arch(sm-120)
+
+
+
 ---
 #### Examples:
 ```python

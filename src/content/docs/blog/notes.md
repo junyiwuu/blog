@@ -13,3 +13,9 @@ Debug thought:
 			list-style: disc !important;
 			padding-left: 20px !important;}```
 
+
+
+
+## Configuration
+* update nodejs
+	
