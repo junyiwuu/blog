@@ -44,7 +44,12 @@ conda commands available from other packages:
 * `conda-forge` is a community-maintained Conda channel that provides up-to-date and well-maintained packages.
 * `conda info`: if Conda is correctly installed, this will display information about your installation
 * `conda env list`: check available Conda environments
+* disable auto activate base env: `conda config --set auto_activate_base false` then `source ~/.bashrc `
 
+
+## Create
+
+`conda create --name myenv python=3.8`
 
 ## Download / install
 download -> chmod +x path -> run it -> install

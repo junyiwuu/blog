@@ -27,28 +27,31 @@ description: remember details about how to use ssh key to push to github
 
 
 ## Git + ssh
-### List all ssh key currently own on the machine
+* List all ssh key currently own on the machine
 
 ```bash
 ls -al ~/.ssh/
 ```
 
 
-### Generate one 
+* Generate one 
 `ssh-keygen -t ed25519 -C "your_email@example.com"`
 
 
 
-### Check your public key
+* Check your public key
 ```bash
 cat ~/.ssh/id_ed25519.pub
 ```
 
 
-### Change using HTTP  to SSH
+* Change using HTTP  to SSH
 ```bash
 git remote set-url origin git@github.com:username/repo.git
 ```
+
+* Go to github -> repo setting -> Deploy keys -> Add deploy key -> copy whole public key (from `cat ~/.ssh/id_ed25519.pub`)
+* Then `git push origin main`
 
 
 ## Recursive

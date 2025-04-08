@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/notes.md",
+                "file": "linux/security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "security"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ab0514f46b62d834",
@@ -170,7 +171,16 @@
   },
   "active": "bdfd6ed182ba8d7b",
   "lastOpenFiles": [
+    "linux/cuda.md",
+    "linux/security.md",
+    "Pasted image 20250406162300.png",
+    "researchStudy/trainDiffusionModel.md",
+    "researchStudy/stable diffusion.md",
+    "researchStudy/conceptNotes.md",
+    "researchStudy/buildDiffusionModelFromScratch.md",
+    "researchStudy/Dataset Preparation/batch process.md",
     "virtual environment/conda.md",
+    "linux/Git.md",
     "blog/notes.md",
     "Houdini/houdini.md",
     "reference/example.md",
