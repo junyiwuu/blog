@@ -1,3 +1,6 @@
+---
+title: taichi
+---
 
 ```
 ti.init(arch=ti.gpu)

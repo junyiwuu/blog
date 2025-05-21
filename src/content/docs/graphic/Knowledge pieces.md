@@ -1,3 +1,8 @@
+---
+title: knowledge
+---
+
+
 ## Deferred Shading
 Deferred shading is a rendering technique. 
 * 先把所有几何信息都渲染下来，等到最后统一做光照计算

@@ -1,3 +1,6 @@
+---
+title: lights
+---
 
 
 light做积分，不适合实时，所以这里用的是近似+lookup的方法

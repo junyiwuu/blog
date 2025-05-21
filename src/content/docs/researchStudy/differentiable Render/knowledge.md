@@ -1,3 +1,6 @@
+---
+title: differentiable renderer knowledge
+---
 
 ## 知识框架
 

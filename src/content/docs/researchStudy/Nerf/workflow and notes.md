@@ -1,3 +1,6 @@
+---
+title: nerf workflow and notes
+---
 
 ## General Information
 [yenchenlin/nerf-pytorch](https://github.com/yenchenlin/nerf-pytorch) : simple code. projects/nerf-pytorch.
