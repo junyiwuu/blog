@@ -25,8 +25,21 @@ source ~/.bashrc
 ```
 * after executing PATH, then can check the output of `echo $PATH`
 * LD_LIBRARY_PATH environment path, tells the system where to look for shared libraries (.so files) when running programs
+* 这是一种临时办法， 并不是永久的，如果是永久就打开`~/.bashrc` 或 `~/.bash_profile`加入这些命令
 
 **CUDA_HOME set the path for CUDA TOOLKIT!!**
+
+### Set/switch cuda-toolkit version in Conda environment
+1. 首先要明白自己现在用的是什么版本的cuda toolkit
+`ls -ld /usr/local/cuda` 看返回的结果指向哪里
+```bash
+readlink -f /usr/local/cuda
+```
+```bash
+which nvcc
+readlink -f $(which nvcc)
+```
+
 
 
 

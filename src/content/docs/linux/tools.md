@@ -113,6 +113,16 @@ For example : in `while true` --> execute `pkill unison`
 
 
 
+---
+
+## Change background color (solid color) on Gnome
+
+[reference link](https://askubuntu.com/questions/943245/change-desktop-background-to-a-solid-color-e-g-pitch-black-in-gnome-3)
+
+* launch dconf Editor -- `dconf-editor`
+* Go to `/org/gnome/desktop/background/`
+* if you have a picture: go to `picture-url`, change Custom value to `none`
+* if not, just change the color:  go to `primary-color`, change `Custom value` to desired one
 
 
 

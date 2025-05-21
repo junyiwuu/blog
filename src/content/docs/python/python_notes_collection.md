@@ -490,3 +490,7 @@ code:
 | `os.makedirs(path)`          | make a new folder (on this path). return None |
 | `files = os.listdir(folder)` | get all files in one folder                   |
 |                              |                                               |
+
+
+
+
