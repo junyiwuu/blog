@@ -4,87 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "657185c3967441a8",
+        "id": "736db4cd4a4dc4ae",
         "type": "tabs",
         "children": [
           {
-            "id": "b7f4fbadd3a4f963",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "researchStudy/differentiable Render/knowledge.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "knowledge"
-            }
-          },
-          {
-            "id": "18ec9b80958a0431",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "graphic/Knowledge pieces.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Knowledge pieces"
-            }
-          },
-          {
-            "id": "98662142c1b416bf",
+            "id": "09ab6618a4bc18a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "researchStudy/differentiable Render/taichi.md",
+                "file": "windows/windows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "taichi"
-            }
-          },
-          {
-            "id": "bdb779f089d80505",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "researchStudy/differentiable Render/tinydiffrast.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "tinydiffrast"
-            }
-          },
-          {
-            "id": "ff2b777ccc982e6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vulkan/GLSL/GLSL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GLSL"
+              "title": "windows"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "meshgri",
+                "query": "kernel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "researchStudy/Normal boost/workflow and notes.md",
+                "file": "daily/NOTES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of workflow and notes"
+              "title": "Outline of NOTES"
             }
           }
         ],
@@ -219,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -229,46 +166,97 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "ff2b777ccc982e6e",
+  "floating": {
+    "id": "a06cd3a91fcca287",
+    "type": "floating",
+    "children": [
+      {
+        "id": "333448bde8ba40de",
+        "type": "window",
+        "children": [
+          {
+            "id": "9ebe8018853c9fbf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "db1e903ef6ee7c10",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily/2025-06-05.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2025-06-05"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 3662,
+        "y": 172,
+        "width": 600,
+        "height": 1040,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "db1e903ef6ee7c10",
   "lastOpenFiles": [
-    "vulkan/GLSL/compileGLSLtoSPIRV.md",
-    "researchStudy/Transformer.md",
+    "windows/windows.md",
+    "virtual environment/conda.md",
+    "virtual environment/issues.md",
+    "reference/example.md",
     "researchStudy/trainDiffusionModel.md",
     "researchStudy/stable diffusion.md",
-    "researchStudy/Pytorch3D.md",
-    "researchStudy/conceptNotes.md",
-    "researchStudy/buildDiffusionModelFromScratch.md",
-    "researchStudy/basic_pipeline.md",
-    "researchStudy/Paper Read/Image Quality Assessment.md",
-    "researchStudy/Normal boost/light.md",
-    "researchStudy/Normal boost/workflow and notes.md",
-    "researchStudy/Normal boost/knowledge.md",
-    "researchStudy/Normal boost/functionsLearn.md",
-    "researchStudy/Nerf/workflow and notes.md",
-    "researchStudy/Image Processing/Super Resolution methods.md",
-    "researchStudy/Image Processing/coursework main.md",
-    "researchStudy/HashGridPositionalEncoding/tiny-cuda-nn.md",
-    "researchStudy/HashGridPositionalEncoding/hash grid positional encoding.md",
-    "researchStudy/Fine Tune Stable Diffusion/workflow.md",
-    "researchStudy/Fine Tune Stable Diffusion/notes.md",
+    "researchStudy/tools/pytorch/computation graph.md",
+    "researchStudy/tools/pytorch/PyTorch.md",
+    "researchStudy/tools/tiny-cuda-nn.md",
+    "researchStudy/tools/taichi.md",
+    "researchStudy/tools/regularizer.md",
+    "researchStudy/tools/hash grid positional encoding.md",
+    "researchStudy/Fine Tune Stable Diffusion/components/activations.md",
+    "researchStudy/Fine Tune Stable Diffusion/common questions.md",
     "researchStudy/differentiable Render/tinydiffrast.md",
-    "researchStudy/differentiable Render/taichi.md",
+    "researchStudy/differentiable Render/mitsuba.md",
     "researchStudy/differentiable Render/knowledge.md",
-    "researchStudy/Dataset Preparation/Blender script.md",
-    "researchStudy/Dataset Preparation/batch process.md",
-    "reference/example.md",
-    "Computer Graphics",
-    "researchStudy/differentiable Render",
-    "graphic",
-    "researchStudy/Normal boost",
+    "researchStudy/differentiable Render/kaolin.md",
+    "researchStudy/differentiable Render/nvdiffrecmc/nvdiffrecmc.md",
+    "researchStudy/differentiable Render/nvdiffrec/nvdiffrec.md",
+    "researchStudy/differentiable Render/nvdiffrec/loss.md",
+    "researchStudy/differentiable Render/nvdiffrec/knowledge.md",
+    "researchStudy/differentiable Render/nvdiffrec/code.md",
+    "python/issues.md",
+    "python/python_notes_collection.md",
+    "daily/COLLECTIONS.md",
+    "daily/0614_imgs/val_000017_opt 2.png",
+    "daily/0614_imgs/Pasted image 20250614182421.png",
+    "daily/0614_imgs/val_000017_opt 4.png",
+    "daily/0614_imgs/val_000032_opt 2 1.png",
+    "daily/0614_imgs/val_000049_opt 4.png",
+    "daily/0614_imgs/val_000017_opt 3.png",
+    "daily/0614_imgs/val_000032_opt 1 1.png",
+    "daily/0614_imgs/val_000049_opt 3.png",
+    "daily/0614_imgs/val_000017_opt 2 1.png",
+    "daily/0614_imgs/val_000049_opt 2 1.png",
+    "dissertation/img",
+    "dissertation",
+    "daily/0614_imgs",
+    "daily/0609_imgs",
+    "daily",
+    "researchStudy/tools/pytorch",
+    "researchStudy/Stable Diffusion/attention",
+    "researchStudy/Stable Diffusion/transformer",
+    "researchStudy/Stable Diffusion",
     "Untitled.canvas",
-    "researchStudy/Nerf",
-    "Pasted image 20250406162300.png",
-    "researchStudy/Fine Tune Stable Diffusion",
-    "Houdini",
-    "vulkan/GLSL"
+    "researchStudy/differentiable Render/nvdiffrecmc"
   ]
 }

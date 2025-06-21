@@ -84,7 +84,7 @@ train_dataloader = torch.utils.data.DataLoader(dataset, batch_size = config.trai
 
 ---
 
-## Create UNet
+
 ---
 ## Issues:
 ### When after loading matplotlib, kernel crash

@@ -1,4 +1,5 @@
 {
   "theme": "moonstone",
-  "accentColor": "#438e4d"
+  "accentColor": "#b8ccbb",
+  "nativeMenus": false
 }

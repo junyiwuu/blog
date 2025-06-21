@@ -155,8 +155,10 @@ already in a folder, and want to find anything name with "aa" (recursively)
 /boot/initramfs-5.14.0-503.23.2.el9_5.x86_64kdump.img
 ```
 
-
-
+2. remove everything about this kernel, full clean it 
+```bash
+sudo dnf remove $(rpm -qa | grep 5.14.0-503.35.1.el9_5)
+```
 
 ---
 ## Copy

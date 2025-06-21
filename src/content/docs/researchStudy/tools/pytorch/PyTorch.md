@@ -1,6 +1,28 @@
 ---
-title: Concept Notes
+title: pytorch
 ---
+
+
+
+
+## PyTorch specific:
+
+* Register Buffer: 注册一个不需要训练，但需要与model一起管理（保存，迁移）的tensor。他不是一个可训练的参数，不会参与gradient calculation。
+
+
+
+
+
+
+
+---
+
+* clear the old gradient descent: `.zero_grad()`
+* calculate current gradient (by using loss) : `.backward()`
+* update gradient descent: `.step()`
+
+
+
 ## Torch
 
 * torch是pytorch的主体库，提供了tensor操作，autograd(自动求导)，optim(优化)等基本功能
@@ -10,19 +32,14 @@ title: Concept Notes
 | ----------- | ------------------------------ |
 | torch       | 侧重于通用的深度学习框架功能<br>             |
 | torchvision | 提供图像相关的工具function，预训练模型和常用数据集等 |
-|             |                                |
-|             |                                |
+
+---
 #### torch.utils
 *  `torch.utils` 是 PyTorch 中的一个工具包集合，里面按子模块划分，提供各种辅助功能。
 - 最常用的子模块是 `torch.utils.data`，主要负责数据集和数据加载器（`Dataset`、`DataLoader`）等。
 
 - `Dataset`：自定义数据集的基类，需要实现 `__len__` 和 `__getitem__` 两个方法。
 - `DataLoader`：负责批量加载数据，常见参数有 `batch_size`、`shuffle`、`num_workers` 等。
-
-### PyTorch compatible with sm-120 (RTX 5090)
-
-LOGIC: PyTorch的GPU加速是基于CUDA， 所以首先要确保CUDA支持目标arch(sm-120)
-
 
 
 ---
@@ -62,26 +79,27 @@ for a in dataloader:
 * LongTensor通常指的是torch.int64类型的tensor
 * permute : `permute(0, 2, 3, 1)` 会将维度从 `[batch, channels, height, width]` 变为 `[batch, height, width, channels]`。
 
----
-## Scheduler
-
-在 Hugging Face Diffusers 中，**Scheduler**（如 `DDPMScheduler`）的主要作用是定义“扩散过程”里**在每个时间步如何向图像添加或移除噪声**。
-- 可以把它理解成一个“噪声调度器”，并不是一个有学习能力的模型，而是一个固定的算 法，用来实现扩散模型的前向或反向过程。
-- 当你做前向扩散（`add_noise`）时，它会按照预先设计好的公式，给原图混入不同比例的噪声。
-- 在反向扩散时（推理阶段），它也根据相同或对应的公式帮助你一步步去噪，直到得到清晰的图像。  
-换句话说，**Scheduler** 并不会自己“变聪明”，它只是一个“公式”或“流程”的实现。
 
 
 
 
 
----
-
-## Accelerator
 
 
 
----
 
-## epoch
-指模型遍历整个训练数据集一次的过程。epoch参数相当于当前训练到第几轮
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

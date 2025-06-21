@@ -63,10 +63,12 @@ for (int i = 0; i < 4; ++i)
  
 ## Learnable rotation
 
+
+### for Rotation
 **mathematical group**
 
 mathematical group: 所有的3D旋转组合的一个集合+操作规则，构成一个group
-所有的3D旋转组成一个group，叫SO(3)
+所有的3D旋转组成一个group，叫SO(3) (==要学==)
 
 | 条件                | 意思                                       |
 | ----------------- | ---------------------------------------- |
@@ -113,11 +115,11 @@ manifold虽然是“弯”的，但在每个点的局部，我们可以找一个
 - shader → 是 programmable 的部分 
 - pipeline stage（raster / depth / blend）→ 是 fixed-function
 
-deferred shading:
+**deferred shading:**
 rasterization outputs image buffer that contain information related to triangle coverage and occlusion
 G-buffers: contain geometry and texture information
 
-Then the shading computation: use G-buffers to compute final color at each pixel.
+Then the shading computation: use G-buffers to c ompute final color at each pixel.
 So when **implementing differentiable rasterizer**, we must output buffers that provide sufficient information to support downstream shading operations.
 
 differentiable rasterizer**Commonly output 3 buffers:**

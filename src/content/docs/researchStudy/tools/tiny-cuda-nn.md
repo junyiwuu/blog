@@ -44,7 +44,6 @@ cmake . -B build   -DCMAKE_CUDA_COMPILER=/usr/local/cuda-12.8/bin/nvcc   -DCUDA_
 
 
 
-
 ---
 
 ## How to use tiny-cuda-nn in conda environment

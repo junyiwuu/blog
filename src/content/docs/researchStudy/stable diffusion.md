@@ -202,7 +202,3 @@ Overal:
 4. this prediction can be then used to help denoise the image
 (like spot the difference between the clean image and the noisy one)
 
-
----
-## Feb 24
-
