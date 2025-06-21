@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "researchStudy/Stable Diffusion/attentions.md",
+                "file": "researchStudy/Stable Diffusion/TechnicalReport.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "attentions"
+              "title": "TechnicalReport"
             }
           }
         ]
@@ -212,9 +212,24 @@
   "active": "09ab6618a4bc18a1",
   "lastOpenFiles": [
     "researchStudy/Stable Diffusion/scheduler.md",
-    "researchStudy/Stable Diffusion/TechnicalReport.md",
     "researchStudy/Stable Diffusion/loss.md",
     "researchStudy/Stable Diffusion/attentions.md",
+    "researchStudy/Paper Read/Image Quality Assessment.md",
+    "researchStudy/Paper Read/Deep Image Prior.md",
+    "researchStudy/Nerf/workflow and notes.md",
+    "researchStudy/basic_pipeline.md",
+    "researchStudy/tools/tiny-cuda-nn.md",
+    "researchStudy/tools/tensorboard.md",
+    "researchStudy/tools/taichi.md",
+    "researchStudy/tools/regularizer.md",
+    "researchStudy/tools/hash grid positional encoding.md",
+    "researchStudy/tools/pytorch/Pytorch3D.md",
+    "researchStudy/tools/pytorch/PyTorch.md",
+    "researchStudy/tools/pytorch/computation graph.md",
+    "researchStudy/buildDiffusionModelFromScratch.md",
+    "researchStudy/stable diffusion.md",
+    "researchStudy/trainDiffusionModel.md",
+    "researchStudy/Stable Diffusion/TechnicalReport.md",
     "dissertation/reflective essay.md",
     "researchStudy/Stable Diffusion/Untitled.md",
     "dissertation/paper.md",
@@ -222,21 +237,6 @@
     "daily/2025-06-05.md",
     "researchStudy/differentiable Render/nvdiffrec/loss.md",
     "researchStudy/differentiable Render/nvdiffrec/knowledge.md",
-    "researchStudy/differentiable Render/nvdiffrec/code.md",
-    "researchStudy/differentiable Render/nvdiffrecmc/nvdiffrecmc.md",
-    "researchStudy/differentiable Render/mitsuba.md",
-    "researchStudy/differentiable Render/kaolin.md",
-    "researchStudy/Paper Read/Image Quality Assessment.md",
-    "researchStudy/Paper Read/Deep Image Prior.md",
-    "researchStudy/Fine Tune Stable Diffusion/components/activations.md",
-    "researchStudy/Fine Tune Stable Diffusion/code.md",
-    "researchStudy/Fine Tune Stable Diffusion/common questions.md",
-    "researchStudy/Fine Tune Stable Diffusion/workflow.md",
-    "researchStudy/Fine Tune Stable Diffusion/notes.md",
-    "researchStudy/Fine Tune Stable Diffusion/Technical Report.md",
-    "researchStudy/Fine Tune Stable Diffusion/technical report 2.md",
-    "virtual environment/issues.md",
-    "virtual environment/conda.md",
     "daily/0614_imgs/val_000017_opt 2.png",
     "daily/0614_imgs/Pasted image 20250614182421.png",
     "daily/0614_imgs/val_000017_opt 4.png",
