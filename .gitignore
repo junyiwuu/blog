@@ -23,4 +23,4 @@ pnpm-debug.log*
 
 # src
 src/content/docs/daily/
-src/content/docs/dissertation
+src/content/docs/dissertation/

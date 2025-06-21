@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "researchStudy/differentiable Render/nvdiffrec/nvdiffrec.md",
+                "file": "dissertation/paper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nvdiffrec"
+              "title": "paper"
             }
           }
         ]
@@ -209,8 +209,10 @@
       }
     ]
   },
-  "active": "75ec06092d3f857e",
+  "active": "09ab6618a4bc18a1",
   "lastOpenFiles": [
+    "researchStudy/differentiable Render/nvdiffrec/nvdiffrec.md",
+    "daily/2025-06-05.md",
     "researchStudy/differentiable Render/nvdiffrec/loss.md",
     "researchStudy/differentiable Render/nvdiffrec/knowledge.md",
     "researchStudy/differentiable Render/nvdiffrec/code.md",
@@ -235,8 +237,6 @@
     "researchStudy/differentiable Render/tinydiffrast.md",
     "researchStudy/basic_pipeline.md",
     "researchStudy/Nerf/workflow and notes.md",
-    "linux/commonCommands.md",
-    "linux/Git.md",
     "daily/0614_imgs/val_000017_opt 2.png",
     "daily/0614_imgs/Pasted image 20250614182421.png",
     "daily/0614_imgs/val_000017_opt 4.png",
