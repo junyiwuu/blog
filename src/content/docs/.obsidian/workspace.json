@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "researchStudy/Stable Diffusion/TechnicalReport.md",
+                "file": "researchStudy/Stable Diffusion/attentions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TechnicalReport"
+              "title": "attentions"
             }
           }
         ]
@@ -211,6 +211,10 @@
   },
   "active": "09ab6618a4bc18a1",
   "lastOpenFiles": [
+    "researchStudy/Stable Diffusion/scheduler.md",
+    "researchStudy/Stable Diffusion/TechnicalReport.md",
+    "researchStudy/Stable Diffusion/loss.md",
+    "researchStudy/Stable Diffusion/attentions.md",
     "dissertation/reflective essay.md",
     "researchStudy/Stable Diffusion/Untitled.md",
     "dissertation/paper.md",
@@ -233,10 +237,6 @@
     "researchStudy/Fine Tune Stable Diffusion/technical report 2.md",
     "virtual environment/issues.md",
     "virtual environment/conda.md",
-    "researchStudy/trainDiffusionModel.md",
-    "researchStudy/stable diffusion.md",
-    "researchStudy/differentiable Render/tinydiffrast.md",
-    "researchStudy/basic_pipeline.md",
     "daily/0614_imgs/val_000017_opt 2.png",
     "daily/0614_imgs/Pasted image 20250614182421.png",
     "daily/0614_imgs/val_000017_opt 4.png",
