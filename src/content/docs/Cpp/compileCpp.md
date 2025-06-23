@@ -1,6 +1,7 @@
 ---
 title: Compile cpp file
 description: how to compile c++ file
+layout: ../../layout/mainPageLayout.astro
 ---
 
 

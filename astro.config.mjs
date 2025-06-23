@@ -5,6 +5,8 @@ import tailwind from '@astrojs/tailwind';
 //import { getEntry } from "astro:content";
 import mdx from '@astrojs/mdx';
 //import markdown from '@astrojs/mdx';
+import starlightThemeObsidian from 'starlight-theme-obsidian'
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,9 +18,14 @@ export default defineConfig({
 			customCss : [
 				'./src/styles/custom.css',
 			],
-			social: {
-				github: 'https://github.com/junyiwuu',
-			},
+			social: [
+				{icon: "github",
+					label: "Github",
+				href: 'https://github.com/junyiwuu',
+				}
+			],
+			
+			plugins: [starlightThemeObsidian()],
 
 			sidebar: [
 
